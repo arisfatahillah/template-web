@@ -1,0 +1,131 @@
+body {text-align:left; font-size:100%; font-size-adjust:none; font-stretch:normal; vertical-align:middle; margin:0; padding:0}
+
+/*Main*/
+.dbShop-ui-mShop {width:100%;}
+
+/*Header*/
+.ms_headerWrap {width:100%; z-index:799;}
+.ms_header {width:990px; margin:0 auto; position:relative}
+.ms_header table {margin:0 auto;}
+.ms_header td	{vertical-align:middle;}
+#dbShop-user-masthead {overflow:hidden;}
+#dbShop-user-customImg01 {overflow:hidden;}
+#dbShop-user-customImg02 {overflow:hidden;}
+h1#dbShop-user-shopName {margin:0; line-height:normal;}
+h2#dbShop-user-slogan {margin:10px 0 0 0; line-height:normal;}
+#dbShop-ui-header {z-index:1002;}
+.dbShop-ui-mainNavTable {*table-layout:fixed;}
+.dbShop-ui-v15 .dbShop-ui-mainNav {*margin-bottom:-2px!important; }
+/*(#dbShop-ui-header, .dbShop-ui-mainNavTable td div .ddlist, .dbShop-ui-mainNav {z-index:1002!important;}*/
+.dbShop-ui-clearboth {*height:0px; *line-height:0em; *font-size:0px;}
+
+/*MainBody*/
+.ms_bodyWrap	{width:100%;}
+.ms_bottomWrap	{width:990px; margin:0 auto;}
+.ms_mainBody, .ad_mainBody, .app_mainBody {width:100%; margin:0 auto; background:#FFFFFF;}
+.ad_mainBody {width:990px; padding:10px 0 0 0; margin:0 auto;}
+.app_mainBody {width:990px; padding:0;}
+.ms_wrapper {width:990px; margin:0 auto; padding:0;}
+.ms_leftCol	{width:220px; margin:10px 15px 0 10px; float:left; *margin:10px 10px 0 5px; _margin:10px 0 0 0px; *overflow:hidden}
+.ms_body {width:990px; padding:0; /*padding:0 0 10px 0;*/ margin:0 auto; /*min-height:600px; height:auto!important; height:600px;*/}
+.ms_shopContent {float:left; margin:0 auto; *padding:0;}
+.gridA .ms_shopContent, .dbShop-ui-v15 .gridA .ms_shopContent{width:740px;}
+.ms_list, .ms_imgSlider, .ms_mapArea {padding:0;}
+/*Category*/
+.ms_category	{width:220px; margin:0 0 20px 0;}
+
+/*nav menu set fix*/
+.dbShop-ui-mainNav, dbShop-ui-mainNavTable {*margin:0; *padding:0;}
+.dbShop-ui-mainNav {*line-height:14px;}
+
+/*Community*/
+.ms_comm_c {width:100%;}
+.ms_comm {width:990px; margin:0 auto; padding:0; *display:none;}
+
+/*Footer*/
+.ms_footer_c {width:100%;}
+.ms_footer {width:990px; margin:0 auto; padding:0; *display:none;}
+.ms_shopInfo .field_01 {_display:none;}
+.ms_shopInfo .field_02 {_display:none;}
+.ms_shopInfo .field_03 {_display:none;}
+
+/*Custom HTML Area*/
+.ms_customArea, .gridB .ms_wrapper .ms_customArea, .dbShop-ui-v15 .gridA .ms_wrapper .ms_customArea {width:990px; height:auto; font-family:Tahoma, Arial, PMingLiu, Verdana, sans-serif; font-size: 100%; line-height:normal; margin:0; /*overflow:hidden; *padding-bottom:5px;*/}
+
+.ms_wrapper .ms_customArea {width:730px; height:auto; font-family:auto; font-size: 100%; line-height:normal; margin:0 5px 10px 5px; overflow-x:hidden; *padding-bottom:5px;}
+
+.ms_leftCol .ms_customArea  {width:220px;  overflow:hidden; margin:0 0 10px 0;}
+
+.ms_leftCol .galleria-container {width:inherit!important;}
+
+.dbShop-ui-v15 .ms_customArea, .dbShop-ui-v15 .ms_wrapper .ms_customArea {width:auto;}
+.dbShop-ui-v15 .ms_leftCol {display:none;}
+
+/*SNS icons*/
+.cBtn {background:url(../../images/cbtn.png) no-repeat; _background:url(../../images/cbtn.gif) no-repeat; width:41px; height:44px; display:inline-block;}
+.ms_leftCol .cBtn {background:url(../../images/cbtn.png) no-repeat; _background:url(../../images/cbtn.gif) no-repeat; width:37px; height:41px; display:inline-block;}
+.cBtn	{*display:inline; /*IE6*/}
+.wContact {background-position:-1px 0; margin-right:3px; text-decoration:none;}
+.wFB {background-position:-45px 0; margin-right:3px; text-decoration:none;}
+.wYMsn {background-position:-89px 0; margin-right:3px; text-decoration:none;}
+.wMsn {background-position:-133px 0; margin-right:3px; text-decoration:none;}
+.wQQ {background-position:-177px 0; text-decoration:none;}
+.ms_leftCol .wContact {background-position:-1px -63px; margin-right:3px; text-decoration:none;}
+.ms_leftCol .wFB {background-position:-40px -63px; margin-right:3px; text-decoration:none;}
+.ms_leftCol .wYMsn {background-position:-80px -63px; margin-right:3px; text-decoration:none;}
+.ms_leftCol .wMsn {background-position:-120px -63px; margin-right:3px; text-decoration:none;}
+.ms_leftCol .wQQ {background-position:-159px -63px; text-decoration:none;}
+
+/*SNS ranking*/
+.snsRateBox {/*margin-top:10px; border-top:1px solid #666666;*/ position:relative; font-size:12px; line-height:140%;}
+.dbWrap, .fbWrap, .gpWrap {height:22px; /*_width:90px;  _overflow:visible;*/ margin:0 5px 0 0 ; float:left; line-height:140%; *zoom:1}
+.snsWrap {height:22px; /*_width:90px;  _overflow:visible;*/ margin:0 5px 0 0 ; line-height:140%;}
+.gpWrap {overflow:hidden; *display:none;}
+/*.dbWrap {width:110px;}*/
+.dbWrap {text-align:left;}
+.fbWrap, .gpWrap {max-width:90px; _width:90px;}
+.fbWrap {_float:none; _display:inline;}
+.snsWrap {max-width:130px; _width:130px; float:left; *display:inline; _display:inline;}
+.dbShop-ui-v15 .fbWrap, .dbShop-ui-v15 .snsWrap {_float:left; _display:block;}
+.ms_share, .snsRateBox, .fbWrap {*zoom:1!important;}
+.ms_leftCol .fbWrap {*float:none;}
+.ms_leftCol .snsWrap {float:left;}
+.snsWrap .buzzButton {background-color:#FFFFFF!important; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+.fbWrap iframe, .gpWrap iframe {border:none!important;}
+
+.ms_common, .hk_default00, .hk_default01, .hk_default02, .hk_default03, .hk_default04, .hk_beauty01, .hk_beauty02, .hk_beauty03, .hk_beauty04, .hk_baby01, .hk_baby02, .hk_baby03, .hk_baby04, .hk_pet01, .hk_pet02, .hk_pet03, .hk_pet04, hk_design01, hk_design02, hk_design03, hk_design04, hk_generica01, hk_generica02, hk_generica03, hk_generica04, hk_genericb01, hk_genericb02, hk_genericb03, hk_genericb04, hk_genericc01, hk_genericc02, hk_genericc03, hk_genericc04, hk_wedding01, hk_wedding02, hk_wedding03, hk_wedding04, hk_household01, hk_household02, hk_household03, hk_household04, hk_learning01, hk_learning02, hk_learning03, hk_learning04  {/*background:none;*disable on 26 Jun for widgetBg/  padding:0;}
+
+.gridA .ms_leftcol .dbShop-ui-editAreaHide .dbShop-ui-editTag {width:200px; margin:10px 0 0 10px;}
+.gridB .ms_body .dbShop-ui-editAreaHide, .gridB .ms_body .dbShop-ui-editSubPageAreaHide, .gridA .ms_body .dbShop-ui-editAreaHide, .gridA .ms_body .dbShop-ui-editSubPageAreaHide {width:990px; /*margin:30px 0 10px 0;*/ margin:0;}
+.gridA .ms_leftCol .dbShop-ui-editAreaHide, .gridA .ms_leftCol .dbShop-ui-editSubPageAreaHide, .gridB .ms_body .dbShop-ui-sideTool .dbShop-ui-editAreaHide {width:220px; /*margin:30px 10px 10px 10px*/ margin:0 0 10px 0}
+.gridA .ms_leftcol .dbShop-ui-editAreaHide .dbShop-ui-editTag {width:200px; margin:10px 0 0 10px;}
+.gridB .ms_body .ms_shopContent .dbShop-ui-editAreaHide, .gridB .ms_body .ms_shopContent .dbShop-ui-editSubPageAreaHide, .dbShop-ui-v15 .gridA .ms_body .ms_shopContent .dbShop-ui-editAreaHide, .dbShop-ui-v15 .gridA .ms_body .ms_shopContent .dbShop-ui-editSubPageAreaHide  {width:990px; /*margin:30px 0px 10px 15px;*/ margin:10px 0 0 0;}
+.gridA .ms_body .ms_shopContent .dbShop-ui-editAreaHide, .gridA .ms_body .ms_shopContent .dbShop-ui-editSubPageAreaHide {width:740px; /*margin:30px 0 0 0;*/  margin:10px 0 0 0; _margin:10px 0 0 20px;}
+.gridB .ms_shopContent, .dbShop-ui-v15 .gridA .ms_shopContent {*width: 990px;}
+
+
+/*Map area*/
+.gridA .ms_infoSection .dbShop-ui-editAreaHide {width:300px!important; height:32px!important; overflow:hidden; border:1px solid transparent!important; _border:none;}
+.gridB .ms_infoSection .dbShop-ui-editAreaHide, .dbShop-ui-v15 .gridA .ms_infoSection .dbShop-ui-editAreaHide {width:300px!important; height:32px!important; overflow:hidden; border:1px solid transparent!important; _border:none;}
+
+/*item list*/
+.ms_list .dbShop-ui-itemCell {overflow: hidden;}
+/*
+.ms_list .itemTit {max-height:34px; _height:34px; overflow:hidden;}
+.ms_list .itemPrice {max-height:34px; _height:34px; overflow:hidden;}*/
+
+/*Sub-page Menu*/
+ul.subPageMenu {color:#333;}
+ul.subPageMenu li a:link, ul.subPageMenu li a:visited, ul.subPageMenu li a:active{text-decoration:none; line-height:140%; display:inline-block; white-space:normal; margin-left:5px; margin-right:5px; color:#333333}
+ul.subPageMenu li a:hover, ul.subPageMenu li a.dbShop-ui-selected:link, ul.subPageMenu li a.dbShop-ui-selected:visited, ul.subPageMenu li a.dbShop-ui-selected:active, ul.subPageMenu li a.dbShop-ui-selected:hover{text-decoration:underline; line-height:140%; display:inline-block; white-space:normal;  margin-left:5px; margin-right:5px color:#333333}
+ul.subPageMenu div.dbShop-ui-dividerImgNull {display:block; float:none; height:auto; line-height:140%; margin:0; width:auto;}
+
+/*v1.5*/
+.dbShop-ui-v15 .ms_wrapper, .dbShop-ui-v15 .ms_shopContent {width:990px;}
+.dbShop-ui-v15 .dbShop-ui-cell .dbWrap {line-height:100%; *line-height:130%;}
+.dbShop-ui-v15 .dbShop-ui-cell .dbWrap .dbShop-ui-txtLike_c {*padding:5px 0 4px 4px;}
+
+/*Chrome hacking*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.dbShop-ui-v15 .dbShop-ui-cell .dbWrap, .dbShop-ui-v15 .dbShop-ui-cell .fbWrap, .dbShop-ui-v15 .dbShop-ui-cell .gpWrap {line-height:120%;}
+}

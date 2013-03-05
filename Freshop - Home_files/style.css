@@ -1,0 +1,303 @@
+/*Shop Info*/
+/*Shared*/
+.ms_leftcol .ms_shopInfoWrap {width:220px;}
+.ms_shopInfo {background-color:transparent;}
+.ms_shopInfoWrap h3.dbShop-ui-cTit {width:200px; display:block; height:26px; margin:0; display:none;}
+.ms_shopInfo h3.ms_name {margin:0 0 5px 0; white-space:normal;}
+.ms_shopInfo h3.ms_name span {/*display:block; float:left; line-height:160%!important;*/ line-height:140%; }
+.ms_shopInfo h3.ms_name .dbShop-ui-snsBtnHolder {/*display:inline; float:left; margin:0 0 0 5px;*/ line-height:20px; font-size:20px;}
+.ms_shopInfo h3.ms_name .dbShop-ui-snsBtn {line-height:20px; font-size:20px;}
+/*.ms_shopInfo h3.ms_name .dbShop-ui-snsBtn .dbShop-ui-clearboth {*float:left; _width:24%;}*/
+.ms_shopInfo h3.ms_name span.dbShop-ui-verified {font-size: 12px; line-height: 12px; margin: 8px 5px 0 5px; padding: 0 7px; display:inline; width:auto; height:auto;}
+.ms_logo {width:170px; height:170px; /*background:url(images/bg_logo.png) no-repeat 0; _background:url(images/bg_logo.gif) no-repeat 0;*/ padding:10px; margin:0 15px 10px 5px;}
+.ms_logo .ms_imgBox {width:170px; height:170px; overflow:hidden;}/*Side/ Bottom Shop info - imgDiv width must add for general case*/
+.ms_logo .ms_imgBox table {margin:0; width:170px; /*height:170px;*/ }/*Side/ Bottom Shop info - table width must add for general case*/
+.ms_logo .ms_imgBox td {vertical-align:middle; text-align:center; width:170px; height:170px; background:none;}/*Side/ Bottom Shop info - td width must add for general case*/
+.ms_shopInfo .grp01 {}
+.ms_shopInfo .grp02 {}
+.ms_shopInfo .ms_desc {display:block; line-height:140%;}
+.ms_shopInfo .ms_owner {padding:0 0 12px 35px; display:block; width:235px;  overflow:hidden; line-height:140%}
+.ms_shopInfo .ms_address {padding:5px 0 15px 35px; display:block; width:235px;  overflow:hidden; line-height:140%} 
+.ms_shopInfo .ms_tel {padding:0 0 12px 35px; display:block; width:235px;  overflow:hidden; line-height:140%}
+.ms_shopInfo .ms_fax {padding:0 0 12px 35px; display:block; width:235px; overflow:hidden; line-height:140%}
+.ms_shopInfo .ms_email {padding:0 0 12px 35px; display:block; width:235px; overflow:hidden; line-height:140%}
+.ms_shopInfo .ms_office {padding:0 0 12px 35px; display:block; width:235px; overflow:hidden; line-height:140%}
+.ms_shopInfo .ms_mobile {padding:0 0 12px 35px; display:block; width:235px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_desc {display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_desc .ms_share {display:none;}
+.ms_leftCol .ms_shopInfo .ms_owner {padding:10px 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_address {padding:0 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%} 
+.ms_leftCol .ms_shopInfo .ms_tel {padding:0 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_fax {padding:0 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_mobile {padding:0 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_email {padding:0 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_leftCol .ms_shopInfo .ms_office {padding:0 0 3px 0; display:block; width:200px; overflow:hidden; line-height:140%}
+.ms_shopInfo .ms_owner label {}
+.ms_shopInfo .ms_address label {}
+.ms_shopInfo .ms_tel label {}
+.ms_shopInfo .ms_fax label {}
+.ms_shopInfo .ms_share label {}
+.ms_shopInfo .ms_share {margin:0; display:block; white-space:normal; *position:relative; font-size:12px; line-height:140%;}
+.ms_shopInfo .fbWrap {/*text-align:center; margin:0; width:195px; overflow:hidden; _width:110px;*/ _z-index:1500; *zoom:1; }
+.ms_shopInfo .dbWrap, .ms_shopInfo .fbWrap, .ms_shopInfo .gpWrap, .ms_shopInfo .snsWrap {margin:10px 5px 0 0 ;}
+.ms_shopInfo .snsWrap {display:block; padding-top:3px;}
+/*.ms_leftCol .ms_shopInfo .fbWrap, .ms_leftCol .ms_shopInfo .gpWrap, .ms_leftCol .ms_shopInfo .snsWrap {text-align:left; margin:0 0 0 -5px; width:195px; overflow:hidden}*/
+/*.ms_leftCol .ms_shopInfo .fbWrap {text-align:left; margin:0 0 0 -5px; width:195px; overflow:hidden}*/
+.ms_shopInfo .ms_contact {}
+.ms_shopInfo .field_01 {*height:1px; _line-height:0em;}
+.ms_shopInfo .field_02 {*height:1px; _line-height:0em;}
+.ms_shopInfo .field_03 {*height:1px; _line-height:0em;}
+
+/*Left column*/
+.ms_bodyWrap .ms_shopInfo {padding:10px; *padding:10px 0 10px 10px; margin-bottom:10px;}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo {margin-top:0;}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo .grp01 {margin-top:-10px;}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo .snsRateBox, .ms_bodyWrap .ms_leftCol .ms_shopInfo .snsRateBox .fbWrap, .ms_bodyWrap .ms_leftCol .ms_shopInfo .snsRateBox .gpWrap {text-align:left}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo .dbWrap {margin-top:11px; width:200px; height:21px;}
+.ms_bodyWrap .tit {width:200px; display:block; height:26px;}
+.ms_bodyWrap .ms_shopInfo h3.ms_name {white-space:normal;}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo h3.ms_name span {/*float:left; line-height:140%!important; margin-right:5px; overflow: hidden; width: 200px;*/}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo h3.ms_name .dbShop-ui-snsBtnHolder {float:left; display:block; /**float:none; margin:0;*/}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo h3.ms_name .dbShop-ui-snsBtn {/**width:48%;*/}
+/*.ms_bodyWrap .ms_leftCol .ms_shopInfo h3.ms_name .dbShop-ui-snsBtn .dbShop-ui-clearboth {*float:left; _width:48%;}*/
+.ms_bodyWrap .ms_leftCol .ms_shopInfo h3.ms_name .dbShop-ui-verified {/*margin:8px 5px 0 0; float:left*/}
+.ms_bodyWrap .ms_shopInfo .ms_desc, .ms_bodyWrap .ms_shopInfo .ms_owner, .ms_bodyWrap .ms_shopInfo .ms_address, .ms_bodyWrap .ms_shopInfo .ms_tel, .ms_bodyWrap .ms_shopInfo .ms_fax, .ms_bodyWrap .ms_shopInfo .ms_mobile, .ms_bodyWrap .ms_shopInfo .ms_office, .ms_bodyWrap .ms_shopInfo .ms_email  {margin:0 0 2px 0; line-height:140%}
+
+/*Logo without frame*/
+.ms_bodyWrap .noLogoFrame .ms_logo  {width:200px; height:auto; padding:0; margin:0 0 10px 0; background:none;}
+.ms_bodyWrap .noLogoFrame .ms_logo .ms_imgBox   {width:auto; height:auto;}
+.ms_bodyWrap .noLogoFrame .ms_logo .ms_imgBox table {width:200px; /*height:auto*/} /*Side Shop info - table width must add for noFrame case*/
+.ms_bodyWrap .noLogoFrame .ms_logo .ms_imgBox td    {width:auto; height:auto; background:none;}
+
+/*No logo*/
+.ms_bodyWrap .noLogo .ms_logo	{display:none;}
+
+/*Bottom*/
+.ms_bottomWrap .ms_shopInfo {width:990px; _width:990px; margin:0 auto; padding:15px 0; _padding:15px 0 0 0;/*border-radius:8px 8px 0 0; -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; -o-border-radius:8px 8px 0 0;*/}
+.ms_bottomWrap .ms_shopInfo .tit {display:none;}
+.ms_bottomWrap .ms_shopInfo .ms_logo {float:left; margin:0 0 0 30px; *margin-left:15px;}
+.ms_bottomWrap .ms_shopInfo .grp01 {float:left; width:730px; *width:760px; _width:750px; margin:0 0 0 20px;}
+.ms_bottomWrap .ms_shopInfo .grp02 {float:left; width:270px;}
+.ms_bottomWrap .ms_shopInfo .ms_desc {float:left; padding:0; width:440px; *width:470px; _width:450px; /*background:url(images/div_shopinfo.gif) right repeat-y;*/ margin:0 20px 0 0;}
+.ms_bottomWrap .ms_shopInfo .ms_desc .ms_share {width:440px; *zoom:1;}
+.ms_bottomWrap .ms_shopInfo .grp02 .ms_share {width:235px; _width:240px; /*display:none;*/}
+.ms_bottomWrap .ms_shopInfo .ms_owner, .ms_bottomWrap .ms_shopInfo .ms_address, .ms_bottomWrap .ms_shopInfo .ms_tel, .ms_bottomWrap .ms_shopInfo .ms_fax, .ms_bottomWrap .ms_shopInfo .ms_office, .ms_bottomWrap .ms_shopInfo .ms_email, .ms_bottomWrap .ms_shopInfo .ms_mobile {position:relative; zoom:1; padding:2px 0 10px 30px; line-height:140%; display:block; }
+.ms_bottomWrap .ms_shopInfo .ms_share .dbWrap {margin-top:11px; *margin-top:9px; margin-right:0; max-width:200px; _width:auto; margin-bottom:-1px;}
+.ms_bottomWrap .ms_shopInfo .ms_desc .ms_share .gpWrap {margin-right:4px}
+.ms_bottomWrap .ms_shopInfo .grp02 .ms_share .dbWrap {margin-top:10px; *margin-top:9px; height:21px;}
+.ms_bottomWrap .ms_shopInfo .grp02 .ms_share .fbWrap {margin-top:9px;}
+.ms_bottomWrap .ms_shopInfo .ms_owner label {position:absolute; display:block; top:0; left:0; width:30px; height:25px; background:url(../../../images/cbtn.png) no-repeat -275px 0; _background:url(../../../images/cbtn.gif) no-repeat -275px 0; z-index:100;}
+.ms_bottomWrap .ms_shopInfo .ms_address label {position:absolute; display:block; top:0; left:0; width:30px; height:23px; padding-top:2px; background:url(../../../images/cbtn.png) no-repeat -275px -25px; _background:url(../../../images/cbtn.gif) no-repeat -275px -25px;}
+.ms_bottomWrap .ms_shopInfo .ms_tel label {position:absolute; display:block; top:0; left:0; width:30px; height:23px; padding-top:2px; background:url(../../../images/cbtn.png) no-repeat -275px -75px; _background:url(../../../images/cbtn.gif) no-repeat -275px -75px;}
+.ms_bottomWrap .ms_shopInfo .ms_fax label {position:absolute; display:block; top:0; left:0; width:30px; height:23px; padding-top:2px; background:url(../../../images/cbtn.png) no-repeat -275px -100px; _background:url(../../../images/cbtn.gif) no-repeat -275px -100px;}
+.ms_bottomWrap .ms_shopInfo .ms_office label {position:absolute; display:block; top:0; left:0; width:30px; height:23px; padding-top:2px; background:url(../../../images/cbtn.png) no-repeat -275px -150px; _background:url(../../../images/cbtn.gif) no-repeat -275px -150px;}
+.ms_bottomWrap .ms_shopInfo .ms_email label {position:absolute; display:block; top:0; left:0; width:30px; height:23px; padding-top:2px; background:url(../../../images/cbtn.png) no-repeat -275px -50px; _background:url(../../../images/cbtn.gif) no-repeat -275px -50px;}
+.ms_bottomWrap .ms_shopInfo .ms_mobile label {position:absolute; display:block; top:0; left:0; width:30px; height:23px; padding-top:2px; background:url(../../../images/cbtn.png) no-repeat -275px -125px; _background:url(../../../images/cbtn.gif) no-repeat -275px -125px;}
+.ms_bottomWrap .ms_shopInfo .snsRateBox, .ms_bottomWrap .ms_shopInfo .snsRateBox .fbWrap, .ms_bodyWrap .ms_leftCol .ms_shopInfo .snsRateBox .gpWrap {text-align:left;}
+
+/*Logo without frame*/
+.ms_bottomWrap .noLogoFrame .ms_logo  {width:auto; height:auto; padding:0; margin:0 0 0 30px; _margin:0 0 0 10px; background:none;}
+.ms_bottomWrap .noLogoFrame .ms_logo .ms_imgBox {width:auto; height:auto;}
+.ms_bottomWrap .noLogoFrame .ms_logo .ms_imgBox table   {/*height:auto;*/}
+.ms_bottomWrap .noLogoFrame .ms_logo .ms_imgBox td  {width:170px; height:auto; background:none;} /*Bottom Shop info - td width must add for noFrame case*/
+.ms_bottomWrap .noLogoFrame .grp01 {width:750px; _width:720px; margin:0 0 0 20px;}
+.ms_bottomWrap .noLogoFrame .ms_desc{width:460px; _width:430px;}
+.ms_bottomWrap .noLogoFrame .ms_desc .ms_share {width:460px; _width:430px;}
+.ms_bottomWrap .noLogoFrame .ms_shopInfo .dbWrap {margin-top:11px; margin-top:10px\0;  margin-top:10px\9;}
+.ms_bottomWrap .noLogoFrame .grp02 {width:270px; _margin:0;}
+
+/*No logo*/
+.ms_bottomWrap .noLogo .ms_logo	{display:none;}
+.ms_bottomWrap .noLogo .grp01	{width:950px; margin:0 20px; _width:930px; _margin:0 20px 0 10px;}
+.ms_bottomWrap .noLogo .ms_desc	{width:630px; _width:610px;}
+.ms_bottomWrap .noLogo .ms_desc	.ms_share {width:630px; _width:610px;}
+.ms_bottomWrap .noLogo .ms_shopInfo .dbWrap {margin-top:11px; margin-top:9px\0; *margin-top:10px;}
+.ms_bottomWrap .noLogo .grp02	{width:300px;}
+.ms_bottomWrap .noLogo .ms_owner {width:265px;}
+.ms_bottomWrap .noLogo .ms_address {width:265px;}
+.ms_bottomWrap .noLogo .ms_tel {width:265px;}
+.ms_bottomWrap .noLogo .ms_fax {width:265px;}
+.ms_bottomWrap .noLogo .ms_email {width:265px;}
+.ms_bottomWrap .noLogo .ms_mobile {width:265px;}
+
+/*No description with logo and frame*/
+.ms_bottomWrap .noDesc .ms_desc, /*.ms_bottomWrap .ms_shopInfo .noDesc .ms_desc .ms_share,*/ .ms_bodyWrap .ms_leftCol .noDesc .ms_desc {display:none;}
+.ms_bottomWrap .noDesc .grp02 .ms_share {display:block;}
+.ms_bottomWrap .noDesc .grp02, .ms_bottomWrap .noDesc .grp02 .ms_owner, .ms_bottomWrap .noDesc .grp02 .ms_address, .ms_bottomWrap .noDesc .grp02 .ms_tel, .ms_bottomWrap .noDesc .grp02 .ms_fax,  .ms_bottomWrap .noDesc .grp02 .ms_email, .ms_bottomWrap .noDesc .grp02 .ms_mobile, .ms_bottomWrap .noDesc .grp02, .ms_bottomWrap .noDesc .grp02 .ms_office, .ms_bottomWrap .noDesc .grp02 .ms_share {width:710px; padding-right:10px;}
+.ms_bottomWrap .ms_shopInfo .noDesc .dbWrap {margin-top:6px\0;}
+
+/*No description with logo*/
+.ms_bottomWrap .noLogoFrame .noDesc .grp02, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_owner, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_address, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_tel, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_fax, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_email, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_mobile, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_office, .ms_bottomWrap .noLogoFrame .noDesc .grp02 .ms_share {width:730px; padding-right:10px;}
+.ms_bottomWrap .noLogoFrame .ms_shopInfo .noDesc .dbWrap {*margin-top:7px;}
+
+
+/*No description & No logo*/
+.ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_owner, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_address, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_tel, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_fax, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_email, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_mobile,  .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_office, .ms_bottomWrap .noLogo .ms_shopInfo .noDesc .grp02 .ms_share {width:940px; padding-right:10px;}
+.ms_bottomWrap .noLogo .ms_shopInfo .noDesc .dbWrap {*margin-top:7px;}
+
+/*Contact Us*/
+.ms_sMsg {z-index:300;}
+.ms_sMsg .dbShop-ui-loginMsgLayer {position:absolute; top:0; right:0; *right:-2px; *padding-top:38px; _padding-right:10px;}
+.ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:link, .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:hover, .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:active, .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:visited{border-radius:4px 4px 0 0; -moz-border-radius:4px 4px 0 0; -webkit-border-radius:4px 4px 0 0; -o-border-radius:4px 4px 0 0; display:block;  padding:10px 35px; *padding:10px 33px; background:#f4e8dc url(../../../images/btn_adDetails.png) repeat-x 0 bottom; color:#444444; text-shadow:#f4e8dc -1px -1px 0; text-align:center;  font-size:15px; font-weight:bold; line-height:18px; font-family:Tahoma, Arial, PMingLiu, Verdana, sans-serif; white-space:nowrap; float:right; z-index:50px; text-decoration:none; *position:absolute; *top:0;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c{background:#f4e8dc; padding:10px 0 0 0; border:5px solid #FFFFFF; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; -o-border-radius:8px; width:650px; -webkit-box-shadow: 0 1px 2px #999; -moz-box-shadow: 0px 2px 5px #999; box-shadow: 0px 2px 5px #999; margin:-12px -10px 0 0; *margin:-12px -10px 0 0; _margin:-12px -7px 0 0;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c {width:650px; _width:640px;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_cf {width:320px; float:left; _margin-left:-1px;}
+.gridA .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_cf input.txtfield, .gridB .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_cf input.txtfield {background:#FFFFFF; width:295px; *width:290px; _width:280px; height:21px; padding:5px; margin:10px 10px 0 10px; *margin-left:8px; _margin:0 0 0 10px;}
+.gridA .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_cf .dbShop-ui-errMsg, .gridB .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_cf .dbShop-ui-errMsg, .gridA .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .dbShop-ui-errMsg, .gridB .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .dbShop-ui-errMsg  {margin-left:10px; *margin-left:10px; _margin-left:10px;}
+.gridA .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode, .gridB .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode {position:relative; float:left; width:320px; _margin-left:-1px;}
+.gridA .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .txtfield, .gridB .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .txtfield {background:#FFFFFF; height:21px; padding:5px 55px 5px 5px; width:220px; margin-right:20px; *margin-left:-8px; margin:10px 10px 0 10px; _margin:0 0 0 10px; }
+.gridA .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .dbShop-ui-captcha, .gridB .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .dbShop-ui-captcha {position:absolute; top:16px; right:33px; _top:7px;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode a.dbShop-ui-refreshCode {position:absolute; top:16px; _top:7px; right:4px; display:block; width:20px; height:20px; background: url(../../../images/btn_adDetails.png) no-repeat -57px -240px; _background: url(../../../images/btn_adDetails.gif) no-repeat -57px -240px; }
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-msgLayerBtnArea {width:auto; margin-bottom:10px;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-msgLayerBtnArea .msBtn {width:60px; margin-right:10px; float:right;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-checkArea {text-align:left;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-checkArea label {text-align:left; font-size:11px; color:#666666; font-weight:normal; vertical-align:10%;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-msgLayerBtnArea .dbShop-ui-checkArea {text-align:left; margin-left:10px; float:left;}
+.ms_sMsg .dbShop-ui-checkArea {color:#666666; font-size:11px;}
+.ms_sMsg .dbShop-ui-checkArea .checkbox {margin:3px 5px 0 0; vertical-align:-10%;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-foot {*margin-top:10px; padding:10px; *padding:0 15px 5px 10px; background:#cbbfaf;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-foot .dbShop-ui-left {margin-left:10px;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-foot a.dbShop-ui-wLink:link, .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-foot a.dbShop-ui-wLink:visited, .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-foot a.dbShop-ui-wLink:active {font-size:12px; font-weight:bold; color:#FFFFFF; text-decoration:none; text-shadow:#999999 -1px -1px 0;}
+.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-foot a.dbShop-ui-wLink:hover {font-size:12px; font-weight:bold; color:#FFFFFF; text-decoration:underline; text-shadow:#999999 -1px -1px 0;}
+.ms_sMsg .dbShop-ui-tipsLbl {font-size:11px; line-height:14px; text-align:left; color:#666666; margin-left:3px;}
+
+a.dbShop-ui-refreshCode {position:absolute; top:23px; right:4px; _right:30px; display:block; width:20px; height:20px; background: url(../../../images/btn_adDetails.png) no-repeat -57px -240px; _background: url(../../../images/btn_adDetails.gif) no-repeat -57px -240px; }
+/*.ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-vCode .dbShop-ui-errMsg {padding:3px 3px 3px 20px\0;}*/
+
+.dbShop-ui-noResult {height:30px; padding:20px 10px 10px 10px; text-align:center; font-size:12px; font-weight:bold; color:#555555; font-family:Tahoma, Arial, PMingLiu, Verdana, sans-serif; margin:0 5px 10px 5px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;}
+
+.dbShop-ui-txtV1 {font-family:auto; font-size:100%; line-height:normal; white-space:normal;}
+.dbShop-ui-txtV1 p {margin:auto; padding:auto; color: #000000; font-family:auto; line-height: normal; white-space: normal;display: block;}
+.dbShop-ui-txtV1 ul, .dbShop-ui-txtV1 li {line-height:normal; margin:auto; font-family:auto; list-style:auto;}
+.ms_customArea img {border:inherit;}
+.ms_customArea .shop88_slider img {border:none;}
+
+.dbShop-ui-v15 .mceContentBody p, .dbShop-ui-v15 .mceContentBody ul,  .dbShop-ui-v15 .mceContentBody ol, .dbShop-ui-v15 .mceContentBody li {font-family:Arial, SimSun, sans-serif; font-size:12px; line-height:normal;}
+
+
+/*SNS Button*/
+.dbShop-ui-snsBtnHolder {/*display:inline;*/}
+.dbShop-ui-snsBtn {background:url(../../../images/btn_editBtn.png) repeat-x 0 -1393px; _background:url(../../../images/btn_editBtn.gif) repeat-x 0 -1393px; _width:18%; overflow:visible; height:25px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; -webkit-box-shadow:0 1px 3px #333; -moz-box-shadow:0 1px 3px #333; box-shadow:0 1px 3px #333; margin:2px 0; white-space:nowrap;}
+.ms_sendMessage .dbShop-ui-snsBtn {height:auto; padding:5px 0 0 0;}
+.dbShop-ui-snsBtn .dbShop-ui-sndBlk {background:url(../../../images/bg_wt01.gif) repeat-y left 0; border-left:1px solid #c7c7c7;}
+.dbShop-ui-snsBtn .dbShop-ui-sndBlk, .dbShop-ui-snsBtn .dbShop-ui-left {/**display:inline;*/}
+.dbShop-ui-snsBtn span.dbShop-ui-conMsn {font-size: 18px; line-height: 18px!important; padding: 2px 0px 0px; margin: 0; vertical-align:3px; *padding-top:0; *vertical-align:4px;}
+.dbShop-ui-snsBtn span.dbShop-ui-conMsn img {border-style: none; height:20px; margin-top:-1px; padding:4px 0 3px 6px; vertical-align:-9px;}
+.dbShop-ui-snsBtn span.dbShop-ui-conQQ {padding: 0px 3px; margin: 0px; font-size: 19px; line-height:19px; vertical-align: 1px; *padding:5px 5px 3px 6px; *vertical-align:0; *margin:0 0 0 -3px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px;}
+.dbShop-ui-snsBtn span.dbShop-ui-conQQ img {height:16px; *height:17px; width:auto; margin:4px 3px -1px 3px; _margin:4px 0px -1px 3px; padding:0;}
+.dbShop-ui-snsBtn span.dbShop-ui-conYM {padding:0; line-height:19px; font-size: 19px; vertical-align: 1px; *padding:5px 0 2px 0; *vertical-align:3px; *margin:0 0 0 -4px; _margin:0 0 0 -8px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px;}
+.dbShop-ui-snsBtn span.dbShop-ui-conYM img {height:14px; margin:0 1px 1px 1px; _margin:0 5px 5px 5px; padding:1px 6px 3px 6px; vertical-align:-4px; _vertical-align:-3px;}
+
+/*theme font style*/
+/*.dbShop-ui-themeTxtL, .dbShop-ui-themeTxtM, .dbShop-ui-themeTxtS, .dbShop-ui-themeTxtN {line-height:150%;}*/
+
+/*Smart Tab*/
+.dbShop-ui-smartTab {white-space:normal;}
+.dbShop-ui-smartTab div { _height:150px; max-height:150px; overflow:hidden;}
+.dbShop-ui-mainNavTable td.dbShop-ui-SI_s {width:90px; vertical-align:bottom;}
+.dbShop-ui-mainNavTable td.dbShop-ui-SI_m {width:120px; vertical-align:bottom;}
+.dbShop-ui-mainNavTable td.dbShop-ui-SI_l {width:150px; vertical-align:bottom;}
+.dbShop-ui-mainNavTable td.dbShop-ui-SI_s div {width:90px; z-index:998;}
+.dbShop-ui-mainNavTable td.dbShop-ui-SI_m div {width:120px; z-index:998;}
+.dbShop-ui-mainNavTable td.dbShop-ui-SI_l div {width:150px; z-index:998;}
+.dbShop-ui-mainNavTable td.dbShop-ui-ST_s, .dbShop-ui-mainNavTable td.dbShop-ui-ST_s_selected {width:70px; padding:5px 10px; vertical-align:middle; text-align:center;}
+.dbShop-ui-mainNavTable td.dbShop-ui-ST_m, .dbShop-ui-mainNavTable td.dbShop-ui-ST_m_selected {width:100px; padding:5px 10px; vertical-align:middle; text-align:center;}
+.dbShop-ui-mainNavTable td.dbShop-ui-ST_l, .dbShop-ui-mainNavTable td.dbShop-ui-ST_l_selected {width:130px; padding:5px 10px; vertical-align:middle; text-align:center;}
+.dbShop-ui-ST_s a:link, .dbShop-ui-ST_s a:visited, .dbShop-ui-ST_s a:active, .dbShop-ui-ST_m a:link, .dbShop-ui-ST_m a:visited, .dbShop-ui-ST_m a:active,  .dbShop-ui-ST_l a:link, .dbShop-ui-ST_l a:visited, .dbShop-ui-ST_l a:active  {vertical-align:middle; text-align:center; width:70px; white-space:normal; font-family:Tahoma, PMingLiu, Arial, sans-serif; font-size:12px; font-weight:bold; text-decoration:none; color:#FFFFFF;}
+.dbShop-ui-ST_s a:hover, .dbShop-ui-ST_m a:hover, .dbShop-ui-ST_l a:hover, .dbShop-ui-ST_s_selected a:link, .dbShop-ui-ST_s_selected a:visited, .dbShop-ui-ST_s_selected a:active, .dbShop-ui-ST_s_selected a:hover, .dbShop-ui-ST_m_selected a:link, .dbShop-ui-ST_m_selected a:visited, .dbShop-ui-ST_m_selected a:active, .dbShop-ui-ST_m_selected a:hover, .dbShop-ui-ST_l_selected a:link , .dbShop-ui-ST_l_selected a:active, .dbShop-ui-ST_l_selected a:visited, .dbShop-ui-ST_l_selected a:hover {vertical-align:middle; text-align:center; width:70px; white-space:normal; font-family:Tahoma, PMingLiu, Arial, sans-serif; font-size:12px; font-weight:bold; text-decoration:none; color:#5d3f2d;}
+.dbShop-ui-ST_s {background:url(../../../images/bg_st_s.gif) no-repeat;}
+.dbShop-ui-ST_s:hover, .dbShop-ui-ST_s_selected {background:url(../../../images/bg_st_sh.gif) no-repeat;}
+.dbShop-ui-ST_m {background:url(../../../images/bg_st_m.gif) no-repeat;}
+.dbShop-ui-ST_m:hover, .dbShop-ui-ST_m_selected{background:url(../../../images/bg_st_mh.gif) no-repeat;}
+.dbShop-ui-ST_l {background:url(../../../images/bg_st_l.gif) no-repeat;}
+.dbShop-ui-ST_l:hover, .dbShop-ui-ST_l_selected {background:url(../../../images/bg_st_lh.gif) no-repeat;}
+
+.dbShop-ui-mainNavTable td div .ddlist {z-index:99!important;}
+.dbShop-ui-mainNavTable td div {z-index:auto!important;}
+
+/*v1.5 contactus V1*/
+/*.dbShop-ui-v15 .ms_customArea ul {list-style:inside}
+
+.dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_addressInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_officeInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_telInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_mobileInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_faxInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_emailInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_shopURL, 
+.dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_addressInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_officeInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_telInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_mobileInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_faxInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_emailInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_shopURL {background:none; display:block; line-height:140%; white-space:normal; padding:3px 5px 2px 0; position:static; width:auto;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_addressInfo label, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_officeInfo label, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_telInfo label, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_mobileInfo label, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_faxInfo label, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_emailInfo label,
+.dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_addressInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_officeInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_telInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_mobileInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_faxInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_emailInfo label {font-weight:normal; background:none; display:inline; padding:0 6px 0 0; color:inherit; font-size:inherit; line-height:inherit; white-space:normal; position:static; left:auto; top:auto;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_addressInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_addressInfo label, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .gridContactsContent .ms_emailInfo label, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .gridContactsContent .ms_emailInfo label {display:none;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo {width:auto; height:auto; min-height:10px; margin:0;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .ms_addressInfo,
+.dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .ms_addressInfo {margin:0 0 10px 0;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .ms_emailInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .ms_emailInfo, .dbShop-ui-v15 .gridA .hk_default00 .ms_contacInfo .ms_emailInfo, .dbShop-ui-v15 .gridB .hk_default00 .ms_contacInfo .ms_emailInfo {margin:10px 0 0 0;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_sendMessage, .dbShop-ui-v15 .gridB .hk_default00 .ms_sendMessage {padding:0;}
+.dbShop-ui-v15 .hk_default00 .wsMsgBtn {white-space:nowrap; margin:1px 10px 5px 0;}
+.dbShop-ui-v15 .gridA .hk_default00 .ms_sendMessage .dbShop-ui-snsBtn, .dbShop-ui-v15 .gridB .hk_default00 .ms_sendMessage .dbShop-ui-snsBtn {padding:4px 0 0 0; *background-position:0 -1390px;}
+.dbShop-ui-v15 .hk_default00 .ms_sendMessage .dbShop-ui-snsBtnHolder {margin-left:0; margin-top: 2px;}
+.dbShop-ui-v15 .gridA .ms_contacInfo_btm .dbWrap, .dbShop-ui-v15 .gridB .ms_contacInfo_btm .dbWrap {margin-top:-2px; _margin-top:-7px; _height:28px;}  
+.dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLike {margin-top:5px; margin-top:-5px\0;_vertical-align:-8px;}
+.dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLike a.dbShop-ui-txtLike:link, .dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLike a.dbShop-ui-txtLike:active, .dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLike a.dbShop-ui-txtLike:visited, .dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLike a.dbShop-ui-txtLike:hover {padding:2px 0 6px 25px; *vertical-align:-2px; _vertical-align:0; _line-height:180%;}
+.dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLikeOn .dbShop-ui-txtLike_c {padding:2px 0 6px 4px;}
+.dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLikeOn .dbShop-ui-amtLike {padding:2px 0 6px 10px; *vertical-align:0; }
+.dbShop-ui-v15 .ms_contacInfo_btm .dbWrap .dbShop-ui-svLikeOn .dbShop-ui-amtLike_c {padding:2px 0 6px 4px; *margin-top:-3px;}
+.dbShop-ui-v15 .ms_contacInfo_btm .snsWrap {float:left;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_logo {margin:0 0 0 15px; padding:0; _margin:0 0 0 7px;}
+.dbShop-ui-v15 .ms_logo, .dbShop-ui-v15 .hk_default00 .ms_imgBox, .dbShop-ui-v15 .ms_logo .ms_imgBox td {width:85px; height:85px;}
+.dbShop-ui-v15 .ms_logo .ms_imgBox table {width:85px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .grp01 {margin:0 15px; width:635px; _width:615px;}
+.dbShop-ui-v15 .ms_shopInfo h3.ms_name {width:420px; overflow:hidden;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_desc {margin:0; width:635px; _width:615px; overflow:hidden;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .grp02 {width:220px; float:right; margin-right:15px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .grp02 .ms_share .dbWrap {margin-top:5px; _margin-top:3px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .grp02 .ms_share .fbWrap {margin-top:3px; _width:80px;}
+/*.dbShop-ui-v15 .ms_shopInfo .dbWrap, .ms_shopInfo .fbWrap, .ms_shopInfo .gpWrap, .ms_shopInfo .snsWrap {margin:3px 5px 0 0 ;}*/
+
+/*.dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noLogo .ms_desc, .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noLogo .grp01 {width:725px; _width:680px; _margin-right:7px;}
+.dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .ms_desc, .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp01 {width:420px!important; _width:390px!important; _margin-right:7px;}
+.dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .ms_shopInfo h3.ms_name {width:420px; _width:390px;}
+.dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02, .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02 .ms_share {width:425px!important; margin-right:10px; _margin-right:2px;}
+*html .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02, *html .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02 .ms_share {width:445px!important;}
+.dbShop-ui-v15 .ms_shopInfo .grp02 .gpWrap, .dbShop-ui-v15 .ms_shopInfo .grp02 .snsWrap {margin:3px 5px 0 0; _margin:12px 5px 0 0;}
+.dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02 .gpWrap, .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02 .snsWrap {_margin:3px 5px 0 0;}
+.dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noLogo .grp02 .gpWrap, .dbShop-ui-v15 .ms_bottomWrap .dbShop-ui-noDesc .grp02 .gpWrap {_width:70px;}*/
+
+/*V2 shopInfo*/
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo {padding:10px; width:970px;}
+.dbShop-ui-v15 .dbShop-ui-colL {float:left; width:660px}
+.dbShop-ui-v15 .dbShop-ui-colR {float:right; width:280px; margin-left:10px; font-size:12px; font-weight:normal; font-family:Arial, Tahoma, PMingLiu, sans-serif; line-height:normal; overflow:hidden; }
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_logo {margin:0 10px 0 0; padding:0;}
+.dbShop-ui-v15 .ms_logo, .dbShop-ui-v15 .hk_default00 .ms_imgBox, .dbShop-ui-v15 .ms_logo .ms_imgBox td {height:85px; width:85px;}
+.dbShop-ui-v15 .ms_logo .ms_imgBox table {width:85px;}
+.dbShop-ui-v15 .dbShop-ui-colL p {margin:0; padding:0; font-size:12px; font-weight:normal; font-family:Arial, Tahoma, PMingLiu, sans-serif; line-height:normal;}
+.dbShop-ui-v15 h3.ms_name {margin:-3px 0 3px 0; padding:0; font-size:15px; font-weight:bold; font-family:Arial, Tahoma, PMingLiu, sans-serif; line-height:normal;}
+.dbShop-ui-v15 .ms_shopInfo .fbWrap, .dbShop-ui-v15 .ms_shopInfo .gpWrap, .dbShop-ui-v15 .ms_shopInfo .snsWrap {margin:7px 5px 0 0;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_share .dbWrap {margin:8px 5px 0 0; margin:9px 5px 0 0\9; margin:7px 5px 0 0\0; *margin-top:8px; _margin-top:5px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_share .fbWrap {*margin-top:10px; _margin-top:4px; _float:left!important;}
+.dbShop-ui-v15 .ms_shopInfo .dbWrap, .dbShop-ui-v15 .ms_shopInfo .fbWrap, .dbShop-ui-v15 .ms_shopInfo .gpWrap {height:20px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_share .snsWrap { *margin-top:10px; _float:left!important; _margin-top:4px; }
+.dbShop-ui-v15 .ms_shopInfo .snsWrap {height:16px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .snsRateBox {_width:500px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_owner, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_address, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_tel, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_fax, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_office, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_email, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_mobile {padding:0px 0 5px 25px}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_owner, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_address, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_tel, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_fax, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_office, .dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_mobile {white-space:normal;}
+
+.dbShop-ui-v15 .dbShop-ui-noLogo .ms_logo, .dbShop-ui-v15 .dbShop-ui-noLogoContact .ms_logo, .dbShop-ui-v15 .dbShop-ui-noContact .dbShop-ui-colR, .dbShop-ui-v15 .dbShop-ui-noLogoContact .dbShop-ui-colR {display:none;}
+.dbShop-ui-v15 .dbShop-ui-noContact .dbShop-ui-colL, .dbShop-ui-v15 .dbShop-ui-noLogoContact .dbShop-ui-colL {width:970px;}
+
+
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_owner label {background: url("../../../images/label_shopInfo.png") no-repeat scroll 0 0 transparent; _background: url("../../../images/label_shopInfo.gif") no-repeat scroll 0 0 transparent; height:20px; width:20px; padding:0}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_address label {background: url("../../../images/label_shopInfo.png") no-repeat scroll 0 -20px transparent; _background: url("../../../images/label_shopInfo.gif") no-repeat scroll 0 -20px transparent; height:20px; width:20px; padding:0}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_tel label {background: url("../../../images/label_shopInfo.png") no-repeat scroll 0 -60px transparent; _background: url("../../../images/label_shopInfo.gif") no-repeat scroll 0 -60px transparent; height:20px; width:20px; padding:0}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_fax label {background: url("../../../images/label_shopInfo.png") no-repeat scroll 0 -80px transparent; _background: url("../../../images/label_shopInfo.gif") no-repeat scroll 0 -80px transparent; height:20px; width:20px; padding:0}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_office label {background: url("../../../images/label_shopInfo.png") no-repeat scroll 0 -120px transparent; _background: url("../../../images/label_shopInfo.gif") no-repeat scroll 0 -120px transparent; height:20px; width:20px;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_email label {background: url("../../../images/label_shopInfo.png") no-repeat scroll 0 -40px transparent; _background: url("../../../images/label_shopInfo.gif") no-repeat scroll 0 -40px transparent; height:20px; width:20px; padding:0; white-space:normal;}
+.dbShop-ui-v15 .dbShop-ui-widgetWrap .dbWrap {padding-top:2px\0;}
+.dbShop-ui-v15 .ms_email a:link, .dbShop-ui-v15 .ms_email a:active, .dbShop-ui-v15 .ms_email a:visited {text-decoration:none;}
+.dbShop-ui-v15 .ms_email a:hover {text-decoration:underline;}
+
+
+/*Chrome hacking*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.ms_bodyWrap .ms_leftCol .ms_shopInfo .dbWrap {margin-top:9px;}
+.ms_bottomWrap .ms_shopInfo .dbWrap {margin-top:11px;}
+.ms_bottomWrap .noLogo .ms_shopInfo .noDesc .dbWrap, .ms_bottomWrap .ms_shopInfo .noDesc .dbWrap {margin-top:9px;}
+.ms_bottomWrap .noLogo .ms_shopInfo .dbWrap {margin-top:11px;}
+.ms_bodyWrap .ms_leftCol .ms_shopInfo .grp01 {margin-top:0;}
+.dbShop-ui-v15 .ms_bottomWrap .ms_shopInfo .ms_share .dbWrap {margin-top:9px}
+}

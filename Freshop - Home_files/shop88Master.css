@@ -1,0 +1,145 @@
+/*Header*/
+#dbShop-ui-header { background:url(../images/bg_dbShop-uiheader_c.gif) repeat-x top; width:100%; height:auto; padding:0 0 3px 0; min-width:300px; min-height:20px; _height:20px; text-align:right; *text-align:center; *text-align:center\0;  /*_background:none;*/ z-index:999; zoom:1; position:relative;}
+.dbShop-ui-header_c {margin: 0 auto; width: 990px; zoom:1;}
+.dbShop-ui-shopHeadline {width:990px; margin:0 auto; color:#666666; font-size:11px; line-height:140%; vertical-align:middle; padding:3px 0 4px 0; *padding:2px 0 3px 0; _padding:0; text-align:right; z-index:999; font-family:Tahoma, Arial, PMingLiu, Verdana, sans-serif; zoom:1; *height:20px; padding:2px 0 3px 0\0}
+.dbShop-ui-v15 .dbShop-ui-shopHeadline {*padding:0px 0 3px 0;  padding:3px 0\0;}
+
+:root .dbShop-ui-shopHeadline  {padding-top:3px\9}
+.dbShop-ui-shopHeadline .dbShop-ui-left {margin:0; *padding:4px 0 0 0;_margin:0 0 -5px 0;}
+.dbShop-ui-v15 .dbShop-ui-shopHeadline .dbShop-ui-left {*padding:5px 0 0 0;}
+.dbShop-ui-shopHeadline .dbShop-ui-right {margin:0; *margin:5px 0 0; _margin:6px 0 0}
+.dbShop-ui-shopHeadline a:link, .dbShop-ui-shopHeadline a:visited, .dbShop-ui-shopHeadline a:active {color:#666666; font-size:11px; line-height:12px; text-decoration:none; cursor:pointer; font-weight:normal; padding:0 8px; border-left:1px solid #cdcdcd; /*border-right:1px solid #FFFFFF*/}
+.dbShop-ui-shopHeadline span.dbShop-ui-logged, .dbShop-ui-shopHeadline span.dbShop-ui-selected {border-left:1px solid #cdcdcd; border-right:1px solid #FFFFFF}
+.dbShop-ui-shopHeadline span.dbShop-ui-logged span.dbShop-ui-member, .dbShop-ui-shopHeadline span.dbShop-ui-logged a.dbShop-ui-member:link, .dbShop-ui-shopHeadline span.dbShop-ui-logged a.dbShop-ui-member:active, .dbShop-ui-shopHeadline span.dbShop-ui-logged a.dbShop-ui-member:visited, .dbShop-ui-shopHeadline span.dbShop-ui-logged a.dbShop-ui-member:hover  {color:#ED600D; font-weight:bold; border-left:none; padding-left:0;}
+.dbShop-ui-shopHeadline span.dbShop-ui-logged a.dbShop-ui-member:hover {text-decoration:underline;}
+#ssoFBLoginLink {padding:0 13px 0 0; border-left:none; margin:3px 0 0}
+.dbShop-ui-shopHeadline a:hover {color:#666666; font-size:11px; line-height:12px; text-decoration:underline; cursor:pointer}
+.dbShop-ui-shopHeadline span {color:#666666; font-weight:normal;}
+.dbShop-ui-shopHeadline span.dbShop-ui-logged, .dbShop-ui-shopHeadline span.dbShop-ui-selected {color:#ed600d; font-weight:normal; font-size:11px; padding:0 8px; }
+#dbShop-ui-closeHeader { background:url(../images/bg_dbShop-uiheader_c.gif) repeat-x bottom; width:100%; height:auto; padding:0 0 2px 0; min-width:300px; min-height:20px; _height:20px; text-align:right; *text-align:center; *text-align:center\0;  /*_background:none;*/ z-index:999; zoom:1; position:relative; border-top:1px solid #FFFFFF}
+
+/*Language switch*/
+a.dbShop-ui-langLink:link, a.dbShop-ui-langLink:active, a.dbShop-ui-langLink:visited {font-size:11px; font-weight:normal; line-height:15px; text-decoration:none; cursor:pointer; color:#666666; padding:0 8px}
+a.dbShop-ui-langLink:hover {font-size:11px; font-weight:normal; line-height:15px; text-decoration:underline; cursor:pointer; }
+.dbShop-ui-langLeft {left:18px;}
+.dbShop-ui-langRight {right:18px;}
+.dbShop-ui-langSwitch01a {position:absolute; top:6px; background:url(../images/bg_lang.png) repeat-x 0 0; _background-image:none; _background-color:#000000; color:#999999;padding:2px 10px;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;	-o-border-radius:15px;font-size:12px;font-weight:normal;	line-height:12px;}
+.dbShop-ui-langSwitch01b {position:absolute; top:6px; background:url(../images/bg_lang.png) repeat-x 0 -20px; _background-image:none; _background-color:#FFFFFF; color:#666666; padding:2px 10px; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px;font-size:12px; font-weight:normal; line-height:12px;}
+.dbShop-ui-langSwitch02a {position:absolute; top:6px; background:none; color:#cccccc; padding:2px 10px; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px;font-size:12px; font-weight:normal; line-height:12px;}
+.dbShop-ui-langSwitch02b {position:absolute; top:6px; background:none; color:#555555; padding:2px 10px; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px;font-size:12px; font-weight:normal; line-height:12px;}
+.dbShop-ui-langSwitch01a a.dbShop-ui-langLink:link, .dbShop-ui-langSwitch01a a.dbShop-ui-langLink:active, .dbShop-ui-langSwitch01a a.dbShop-ui-langLink:visited, .dbShop-ui-langSwitch01a a.dbShop-ui-langLink:hover {color:#FFFFFF; padding:0 5px; border-right:1px solid #FFFFFF; font-weight:normal}
+.dbShop-ui-langSwitch01b a.dbShop-ui-langLink:link, .dbShop-ui-langSwitch01b a.dbShop-ui-langLink:active, .dbShop-ui-langSwitch01b a.dbShop-ui-langLink:visited, .dbShop-ui-langSwitch01b a.dbShop-ui-langLink:hover {color:#444444; padding:0 5px; border-right:1px solid #999999; font-weight:normal}
+.dbShop-ui-langSwitch02a a.dbShop-ui-langLink:link, .dbShop-ui-langSwitch02a a.dbShop-ui-langLink:active, .dbShop-ui-langSwitch02a a.langLink:visited, .dbShop-ui-langSwitch02a a.dbShop-ui-langLink:hover {color:#FFFFFF; padding:0 5px; border-right:1px solid #FFFFFF; font-weight:normal}
+.dbShop-ui-langSwitch02b a.dbShop-ui-langLink:link, .dbShop-ui-langSwitch02b a.dbShop-ui-langLink:active, .dbShop-ui-langSwitch02b a.dbShop-ui-langLink:visited, .dbShop-ui-langSwitch02b a.dbShop-ui-langLink:hover {color:#444444; padding:0 5px; border-right:1px solid #999999; font-weight:normal}
+.dbShop-ui-langSwitch01a .dbShop-ui-langSelected, .dbShop-ui-langSwitch02a  .dbShop-ui-langSelected {/*color:#ed600d;*/ color:#FFFFFF; font-weight:bold; font-size:12px; line-height:12px; padding:0 5px; border-right:1px solid #FFFFFF;}
+.dbShop-ui-langSwitch01b .dbShop-ui-langSelected, .dbShop-ui-langSwitch02b  .dbShop-ui-langSelected {/*color:#ed600d;*/ color:#333333; font-weight:bold; font-size:12px; line-height:12px; padding:0 5px; border-right:1px solid #999999;}
+.ms_header .dbShop-noBorderR {border-right:none!important;}
+
+/*BreadCrumb*/
+.dbShop-ui-breadcrumb {height:auto; width:950px; margin:0 auto; padding:10px 20px 5px 20px; background:#FFFFFF; color:#333333; font-size:11px; line-height:14px; text-align:left; font-family:Tahoma, Arial, PMingLiu, Verdana, sans-serif;}
+.dbShop-ui-breadcrumb a {color:#019da9; text-decoration:none;}
+.dbShop-ui-breadcrumb a:hover {color:#019da9; text-decoration:underline;}
+.dbShop-ui-breadcrumb a.dbShop-ui-prev {background:url(../images/btn_editBtn.png) -285px -969px no-repeat; _background:url(../images/btn_editBtn.gif) -285px -969px no-repeat; margin:0 0 0 3px; padding:1px 10px 2px 25px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; color:#666666; font-size:11px; line-height:14px; text-align:left; text-decoration:none;}
+.dbShop-ui-breadcrumb a.dbShop-ui-next {background:url(../images/btn_editBtn.png) right -969px no-repeat; _background:url(../images/btn_editBtn.gif) right -969px no-repeat; margin:0 3px 0 0; padding:1px 23px 2px 10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; text-align:left; text-decoration:none; color:#666666; font-size:11px; line-height:14px; text-align:left; text-decoration:none;}
+.dbShop-ui-breadcrumb a.dbShop-ui-prev:hover {background:url(../images/btn_editBtn.png) -285px -949px no-repeat; _background:url(../images/btn_editBtn.gif) -285px -949px no-repeat; margin:0 0 0 3px; padding:1px 10px 2px 25px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; color:#FFFFFF; font-size:11px; line-height:14px; text-align:left; text-decoration:none;}
+.dbShop-ui-breadcrumb a.dbShop-ui-next:hover {background:url(../images/btn_editBtn.png) right -949px no-repeat; _background:url(../images/btn_editBtn.gif) right -949px no-repeat; margin:0 3px 0 0; padding:1px 23px 2px 10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; text-align:left; text-decoration:none; color:#FFFFFF; font-size:11px; line-height:14px; text-align:left; text-decoration:none;}
+
+/*Footer*/
+.dbShop-ui-systemFooter {bottom:0; position:fixed}
+#dbShop-ui-footer {width:100%; background:url(../images/bg_msFooter.jpg) repeat-x;}
+#dbShop-ui-footer .dbShop-ui-footerDivider	{text-align:center; /**margin-top:-12px;*/}
+.dbShop-ui-footer_c {padding:0 0 3px 0; background:url(../images/bg_msFooterTC.jpg) repeat-x; color:#f1f1f1; font-size:11px; text-align:center; line-height:140%;}
+#dbShop-ui-footer .dbShop-ui-footer_c span.dbShop-ui-sDivider {color:#f1f1f1;}
+.dbShop-ui-footer_c a:link, .dbShop-ui-footer_c a:active, .dbShop-ui-footer_c a:visited {color:#3daef9; text-decoration:none;}
+.dbShop-ui-footer_c a:hover {color:#3daef9; text-decoration:underline}
+.dbShop-ui-footer_c .dbShop-ui-left, .dbShop-ui-footer_c .dbShop-ui-right {padding:0 10px;}
+.dbShop-ui-footer_c .dbShop-ui-clearboth {}
+.dbShop-ui-footer_c .dbShop-ui-footer_cBlk {width:990px; margin:0 auto; position:relative;}
+.dbShop-ui-footerSEO {color:#acacac; text-align:center; background:url(../images/bg_msFooterSEO.jpg) repeat-x; padding:10px; _padding-bottom:5px; font-size:12px; line-height:140%;}
+.dbShop-ui-footerSEO span	{display:inline-block; *display:inline; padding:0 8px;}
+.dbShop-ui-cnFooter	{text-align:center; color:#FFF; margin:5px 0 -10px 0; *margin-bottom:-5px;}
+.dbShop-ui-cnFooter table	{margin:0 auto;}
+.dbShop-ui-cnFooter td	{padding:5px 5px 8px 5px; color:#FFFFFF;}
+.open88HL, open88HL:hover {background: url(../images/btn_slidingTab.png) no-repeat 0 0; _background: url(../images/btn_slidingTab.gif) no-repeat 0 0; width:113px; height:26px; display:block; position:absolute; left:45%; z-index:999; text-decoration:none; zoom:1}
+.close88HL, .close88HL:hover  {background: url(../images/btn_slidingTab.png) no-repeat 0 -29px; _background: url(../images/btn_slidingTab.gif) no-repeat 0 -30px; width:113px; height:26px; display:block; position:absolute;  left:45%; z-index:999; text-decoration:none; zoom:1}
+
+#dbShop-ui-sFooter {width:100%;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c a:link, #dbShop-ui-sFooter .dbShop-ui-footer_c a:active, #dbShop-ui-sFooter .dbShop-ui-footer_c a:visited {color:#2383d0;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c a:hover {color:#2383D0;}
+#dbShop-ui-sFooter .dbShop-ui-footerSEO {color:#666666; text-shadow:1px 1px 0 #ffffff; text-align:center;  background:#c5c5c5 url(../images/bg_sFooter_keyCnt.jpg) repeat-y center top; padding:5px; _padding-bottom:0px; font-size:11px; line-height:140%;}
+#dbShop-ui-sFooter .dbShop-ui-footerSEO_c {height:1px; background:#cccccc url(../images/bg_sFooter_keyTop.jpg) repeat-y center top;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c {padding:0 0 3px 0; background:#efefef url(../images/bg_sFooterSide.jpg) repeat-x left top; color:#666666; text-shadow:1px 1px 0 #ffffff; font-size:11px; text-align:left; line-height:140%;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c .dbShop-ui-left {padding:12px 0 0 10px;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c .dbShop-ui-right {padding:10px 5px 0 0;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c .dbShop-ui-oIcon {float:left; margin:5px 0 0 3px;}
+#dbShop-ui-sFooter span.dbShop-shopClosed {margin-left:5px; text-shadow:none;}
+#dbShop-ui-sFooter .dbShop-ui-footer_c span.dbShop-ui-sDivider {color:#d0cfcf;}
+#dbShop-ui-sFooter a.dbShop-ui-ftLogin:link, #dbShop-ui-sFooter a.dbShop-ui-ftLogin:active, #dbShop-ui-sFooter a.dbShop-ui-ftLogin:visited, #dbShop-ui-sFooter a.dbShop-ui-ftLogin:hover, #dbShop-ui-sFooter a.dbShop-ui-ftLogout:link, #dbShop-ui-sFooter a.dbShop-ui-ftLogout:active, #dbShop-ui-sFooter a.dbShop-ui-ftLogout:visited, #dbShop-ui-sFooter a.dbShop-ui-ftLogout:hover {color:#666666; text-shadow:1px 1px 0 #ffffff; font-size:11px; font-weight:bold; line-height:150%; float:right; margin:15px 10px 5px 0; padding:0; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px;}
+#dbShop-ui-sFooter a.dbShop-ui-ftLogin:hover, #dbShop-ui-sFooter a.dbShop-ui-ftLogout:hover {color:#ffffff; text-shadow:1px 1px 0 #666666; background:#666666 }
+
+/*Shop Status*/
+.dbShop-ui-shopClosed, .dbShop-ui-shopComing, .dbShop-ui-shopError, .dbShop-ui-adExpired, .dbShop-ui-comingSoon, .dbShop-ui-systemErr, .dbShop-ui-serverMainten, .dbShop-ui-browserUpdate, .dbShop-ui-browserComp {padding:350px 20px 75px 20px; margin:0 auto; width:575px; text-align:center;font-family:Tahoma, Arial, PMingLiu, Verdana, sans-serif; _height:300px}
+.dbShop-ui-browserUpdate .dbShop-ui-browserLogo {margin:10px 150px 30px; float:none;}
+.dbShop-ui-systemErr {padding:320px 0 0; width:630px; _height:350px}
+.dbShop-ui-serverMainten  {width:630px; padding:350px 180px 75px 180px;}
+.dbShop-ui-adExpired {width:990px;}
+.dbShop-ui-serverMainten {background:#FFFFFF url(../images/bg_serverMainten.jpg) center 20px no-repeat}
+.dbShop-ui-systemErr {background:url(../images/bg_systemErr.jpg) center 20px no-repeat;}
+.dbShop-ui-comingSoon {background:url(../images/bg_comingSoon.jpg) right 20px no-repeat;}
+.dbShop-ui-shopClosed {background:url(../images/bg_shopClosed.jpg) right 20px no-repeat;}
+.dbShop-ui-shopComing {background:url(../images/bg_shopComing.jpg) right 20px no-repeat;}
+.dbShop-ui-shopError {background:url(../images/bg_shopError.jpg) right 20px no-repeat;}
+.dbShop-ui-adExpired {background:url(../images/bg_adExpired.jpg) center 20px no-repeat;}
+.dbShop-ui-browserUpdate {background:url(../images/bg_brUpdate.jpg) center 20px no-repeat; padding:430px 80px 75px 80px}
+.dbShop-ui-browserComp {background:url(../images/bg_brComp.jpg) center 20px no-repeat; padding:430px 80px 75px 80px}
+.dbShop-ui-shopClosed h1, .dbShop-ui-shopComing h1, .dbShop-ui-shopError h1, .dbShop-ui-adExpired h1, .dbShop-ui-comingSoon h1, .dbShop-ui-systemErr h1, .dbShop-ui-serverMainten h1, .dbShop-ui-browserUpdate h1, .dbShop-ui-browserComp h1 {color:#555555; font-size:30px; font-weight:normal; margin:0; padding:20px 0 5px 0; background:none; text-align:center}.dbShop-ui-adExpired h1 {font-size:25px; line-height:28px}
+.dbShop-ui-adExpired h2 {color:#555555; font-size:25px; font-weight:bold; margin:3px}
+.dbShop-ui-shopClosed p, .dbShop-ui-comingSoon p, .dbShop-ui-shopComing p, .dbShop-ui-shopError p, .dbShop-ui-adExpiredList, .dbShop-ui-systemErr p, .dbShop-ui-serverMainten p, .dbShop-ui-browserUpdate p, .dbShop-ui-browserComp p {color:#555555; font-size:12px; line-height:18px; text-align:center; padding:5px 0 20px 0;}
+.dbShop-ui-adExpiredList {background:url(../images/bg_adExpiredList.gif) repeat-x #fcfaf8; width:430px; margin:15px auto; padding:15px 10px 20px 10px; }
+.dbShop-ui-adExpiredList ul { width:170px; text-align:left; float:left}
+.dbShop-ui-shopClosed .dbShop-ui-btnArea, .dbShop-ui-shopComing .dbShop-ui-btnArea, .dbShop-ui-shopError .dbShop-ui-btnArea, .dbShop-ui-adExpired .dbShop-ui-btnArea, .dbShop-ui-comingSoon .dbShop-ui-btnArea, .dbShop-ui-systemErr .dbShop-ui-btnArea, .dbShop-ui-serverMainten .dbShop-ui-btnArea,{margin:10px; text-align:center;}
+.dbShop-ui-btn_openShop, .dbShop-ui-btn_openShop:hover {display:block; width:190px; height:20px; padding:10px 9px; text-align:center; color:#FFFFFF; font-size:18px; line-height:20px; font-weight:bold; text-decoration:none; background:url(../images/btn_editBtn.png) -71px -1178px no-repeat; _background:url(../images/btn_editBtn.gif) -71px -1178px no-repeat; margin-top:20px}
+.dbShop-ui-clearboth {clear:both;}
+.dbShop-ui-shopClosed .dbShop-ui-btnArea, .dbShop-ui-shopComing .dbShop-ui-btnArea, .dbShop-ui-shopError .dbShop-ui-btnArea, .dbShop-ui-adExpired .dbShop-ui-btnArea, .dbShop-ui-systemErr .dbShop-ui-btnArea, .dbShop-ui-serverMainten .dbShop-ui-btnArea {padding:0;}
+.dbShop-ui-shopClosed a.dbShop-ui-rLink, .dbShop-ui-shopComing a.dbShop-ui-rLink, .dbShop-ui-shopError a.dbShop-ui-rLink, .dbShop-ui-adExpired a.dbShop-ui-rLink, .dbShop-ui-comingSoon a.dbShop-ui-rLink, .dbShop-ui-systemErr a.dbShop-ui-rLink, .dbShop-ui-serverMainten a.dbShop-ui-rLink, .dbShop-ui-browserUpdate a.dbShop-ui-rLink, .dbShop-ui-browserComp a.dbShop-ui-rLink  { color:#2383d0; text-decoration:none}
+.dbShop-ui-shopClosed a.dbShop-ui-rLink:hover, .dbShop-ui-shopComing a.dbShop-ui-rLink:hover, .dbShop-ui-shopError a.dbShop-ui-rLink:hover, .dbShop-ui-adExpired a.dbShop-ui-rLink:hover, .dbShop-ui-comingSoon a.dbShop-ui-rLink:hover, .dbShop-ui-systemErr a.dbShop-ui-rLink:hover, .dbShop-ui-serverMainten a.dbShop-ui-rLink:hover, .dbShop-ui-browserUpdate a.dbShop-ui-rLink:hover, .dbShop-ui-browserComp a.dbShop-ui-rLink:hover { color:#2383d0; text-decoration:underline}
+.dbShop-ui-browserUpdate .dbShop-ui-logoChrome {_background:  url(../images/logo_browser.jpg) no-repeat 0 0;}
+.dbShop-ui-browserUpdate .dbShop-ui-logoFirefox {_background:  url(../images/logo_browser.jpg) no-repeat -73px 0;}
+.dbShop-ui-browserUpdate .dbShop-ui-logoSafari {_background:  url(../images/logo_browser.jpg) no-repeat -148px 0;}
+.dbShop-ui-browserUpdate .dbShop-ui-logoIE {_background:  url(../images/logo_browser.jpg) no-repeat -221px 0;}
+
+
+/*Recommend Item*/
+.recomTit {width:950px; margin:10px 20px 0 20px; padding:0;}
+.dbShop-ui-adExpired .recomTit {width:950px; margin:25px 20px 0 20px; padding:0;}
+.recomTit td.recom_l {width:36%; height:40px; height:30px\0; padding:0 0 10px 0\0; *vertical-align:inherit; *height:18px; *padding:0px 0 22px 0; background:#fff9f1 url(../images/bg_recomHead_s.jpg) no-repeat right -36px;}
+.recomTit td.recom_r {width:35%; height:40px; height:30px\0; padding:0 0 10px 0\0; *vertical-align:inherit; *height:18px; *padding:0px 0 22px 0; background:#fff9f1 url(../images/bg_recomHead_s.jpg) no-repeat 0 0;}
+.recomTit td.recom_c {width:30%; height:40px; height:30px\0; padding:0 0 10px 0\0; vertical-align:middle; *vertical-align:inherit; *height:18px; *padding:0px 0 22px 0; background:#fff9f1 url(../images/bg_recomHead_c.jpg) repeat-x 0 0; padding:1px 0 9px 0; font-size:15px; font-weight:700; font-style:italic; line-height:18px;  text-align:center; color:#FFFFFF; text-shadow:#af1b1e -1px -1px 0; font-family:Verdana, Geneva, sans-serif; white-space:nowrap;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {.recomTit td.recom_l, .recomTit td.recom_r, .recomTit td.recom_c {height:30px; padding:0 0 10px 0;}}
+.recomAD {position:relative; width:940px; height:80px; padding:0 0 10px 10px; margin:-6px 20px 10px 20px;  background:#fff9f1 url(../images/bg_recom.jpg) repeat-x 0 bottom;}
+.recomAD_c {width:225px; _width:222px; margin-right:10px; padding:9px 0; float:left;}
+.recomAD .foto {background:#ffffff; width:83px; height:62px; vertical-align:middle; text-align:center; overflow:hidden; float:left; margin:0 10px 0 0; border:1px solid #e7e3e2}
+.recomAD .foto table {width:83px; height:62px;}
+.recomAD .foto td {width:83px; height:62px; vertical-align:middle; text-align:center;}
+.recomAD .adTit {width:128px; *width:125px; _width:125px; height:40px; padding:10px 0; overflow:hidden; float:left; text-align:left}
+.recomAD .adTit a:link, .recomAD .adTit a:visited, .recomAD .adTit a:active, .dbShop-ui-adExpired .recomAD .adTit a:link, .dbShop-ui-adExpired .recomAD .adTit a:visited, .dbShop-ui-adExpired .recomAD .adTit a:active {color:#010000; font-size:12px; font-weight:nornal; line-height:16px; text-decoration:none; text-align:left;}
+.recomAD .adTit a:hover, .dbShop-ui-adExpired .recomAD .adTit a:hover  {color:#019da9; font-size:12px; font-weight:nornal; line-height:16px; text-decoration:none;}
+.recomAD .hrline {position:absolute; top:0; left:0;}
+.dbShop-ui-htmlEditArea {margin:0; padding:0; background:#d8d8d8;  border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; -o-border-radius:8px;}
+.ms_wrapper .dbShop-ui-htmlEditArea {margin:0;}
+.dbShop-ui-htmlEditArea .dbShop-ui-btnArea {margin:10px; _margin:0 10px 10px 10px; padding:3px 0 13px 0; _padding:6px 0 13px 0; text-align:center; position:relative; font-size:11px; font-family:Tahoma, PMingLiu, Geneva, sans-serif; line-height:14px; _width:100%;}
+.dbShop-ui-htmlEditArea .dbShop-ui-btnArea .dbShop-ui-checkArea { font-size:11px; font-family:Tahoma, PMingLiu, Geneva, sans-serif; line-height:14px; position:absolute; top:0; left:5px; *left:0; top:3px\0; _top:5px}
+.dbShop-ui-htmlEditArea .dbShop-ui-btnArea .dbShop-ui-checkArea input.checkBox {vertical-align:-3px; }
+.ms_leftCol .dbShop-ui-htmlEditArea .dbShop-ui-btnArea { font-size:11px; font-family:Tahoma, PMingLiu, Geneva, sans-serif; line-height:14px; margin:40px 10px 10px 10px;}
+.ms_leftCol .dbShop-ui-htmlEditArea .dbShop-ui-btnArea .dbShop-ui-checkArea { font-size:11px; font-family:Tahoma, PMingLiu, Geneva, sans-serif; line-height:14px; left: -3px; *left:-5px; margin: 0;   position: absolute; text-align: left; top: -30px;  *top:-27px; width: 220px;}
+.dbShop-ui-shopHeadline span.dbShop-shopClosed, #dbShop-ui-sFooter span.dbShop-shopClosed, #dbShop-ui-footer span.dbShop-shopClosed  {color:#F00; font-size:11px; background:#e7e7e7; border-left:1px solid #dedede; border-top:1px solid #dedede; padding:0px 5px 1px 5px; padding:0px 8px 2px\0;  border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px;}
+#dbShop-ui-header .dbShop-ui-shopHeadline .dbShop-ui-clearboth {height:0px; margin:0}
+.dbShop-ui-header_c .dbShop-ui-shopHeadline  .dbShop-noBorderL {border-left:none}
+.dbShop-ui-header_c .dbShop-ui-shopHeadline  .dbShop-noBorderR {border-right:none!important;}
+.dbShop-ui-shopHeadline span.dbShop-ui-logged, .dbShop-ui-shopHeadline span.dbShop-ui-logged span {font-weight:normal}
+
+/*Chrome hacking*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.dbShop-ui-breadcrumb a.dbShop-ui-prev { padding:1px 10px 3px 25px;}
+.dbShop-ui-breadcrumb a.dbShop-ui-next { padding:1px 23px 3px 10px;}
+}

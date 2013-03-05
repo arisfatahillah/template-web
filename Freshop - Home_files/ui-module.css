@@ -1,0 +1,289 @@
+.hk_default00 .ms_imgBox	{}
+
+/*Button*/
+.hk_default00 .sBtn {background:url(images/btn.png) no-repeat; _background:url(images/btn.gif) no-repeat; width:44px; height:44px; display:inline-block;}
+.hk_default00 .sBtn	{*display:inline; /*IE6*/}
+.hk_default00 .dContact, .hk_default00 .dContact:hover {background-position:0 -92px; display:block; width:90px; height:23px; margin:0 0 10px 10px; color:#FFFFFF; font-size:16px; line-height:20px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; padding:17px 10px 13px 60px; text-decoration:none; text-shadow:#af1b1e -1px -1px 0;}
+.hk_default00 .wViewAll{background-position:0 -150px; display:block; width:100px; height:18px; margin-bottom:10px; text-decoration:none; color:#FFFFFF; font-size:14px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; padding:8px 10px; text-decoration:none; text-shadow:#1b849a -1px -1px 0;}
+.hk_default00 .wViewDetails {background-position:0 -209px; display:block; width:99px; height:22px; text-decoration:none;color:#FFFFFF; font-size:14px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; padding:10px 7px 10px 63px; text-decoration:none; text-shadow:#1b849a -1px -1px 0;}
+.hk_default00 .wsMsgBtn{background-position:0 -268px; background-repeat:repeat-x; display:block; float:left; width:auto; height:16px; text-decoration:none; color:#FFF; font-size:12px; font-weight:bold; padding:5px 10px; margin:1px 0 0 0; text-decoration:none; text-shadow:#1b849a -1px -1px 0; text-align:center; border:1px solid #45bcd2; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px;}
+.hk_default00 .ms_sendMessage {display: block; text-align:left; padding:20px 0; clear:both;}
+.hk_default00 .ms_sendMessage .dbShop-ui-snsBtnHolder {float:left; padding-left:11px; margin-left:10px; border-left:1px dotted #C7C7C7; }  
+
+/*Title*/
+.hk_default00 h3.dbShop-ui-cTit {font-size:13px; text-align:left; color:#444444; font-family:Arial, Helvetica, sans-serif; margin:0 0 10px 5px;  *margin:0 5px 10px -15px; height:18px; padding:5px 10px; background:url(images/bg_tit.png) repeat-x left top; width:auto}
+
+/*list item*/
+.dbShop-ui-itemCell td {vertical-align:middle; text-align:center;}
+.gridA .hk_default00 .dbShop-ui-col01, .gridA .hk_default00 .dbShop-ui-col02, .gridA .hk_default00 .dbShop-ui-col03, .gridA .hk_default00 .dbShop-ui-col04	{width:740px;}
+.gridB .hk_default00 .dbShop-ui-col01, .gridB .hk_default00 .dbShop-ui-col02, .gridB .hk_default00 .dbShop-ui-col03, .gridB .hk_default00 .dbShop-ui-col04, .gridB .hk_default00 .dbShop-ui-col05, .gridB .hk_default00 .co1Service {width:980px; margin:0 5px;}
+
+/*1-column*/
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell {position:relative; width:710px; height:420px; margin:0 5px 0 5px; padding:10px 10px 0 10px;}
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox table {width:710px; height:350px;}
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell {position:relative; width:950px; height:420px; margin:0 5px 0 5px; padding:10px 10px 0 10px;}
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .ms_imgBox table {width:950px; height:350px;}
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .itemLabel {padding:5px;} 
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+
+/*2-column*/
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell {position:relative; width:338px; height:250px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left; *margin:0 5px 15px 0;}
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox table {width:338px; height:195px;}
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell {position:relative; width:460px; height:250px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left; *margin:0 4px 10px 0;}
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox table {width:460px; height:195px;}
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+
+/*3-column*/
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell {position:relative; width:216px; height:205px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left; *margin:0 5px 10px 0;}
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox	table{width:216px; height:150px;}
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell {position:relative; width:296px; height:205px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left; *margin:0 5px 10px 0;}
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox table {width:296px; height:150px;}
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+
+/*4-column*/
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell {position:relative; width:155px; height:178px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left;background:none; *margin:0 5px 10px 0;}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox	table{width:155px; height:110px;}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemTit a {font-size:12px;}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemPrice a {font-size:12px;}
+
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell {position:relative; width:215px; height:205px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left;background:none; *margin:0 5px 10px 0;}
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox table {width:215px; height:150px;}
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+/*5-column*/
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell {position:relative; width:166px; height:165px; margin:0 5px 0 5px; padding:10px 10px 0 10px; float:left;*margin:0 5px 10px 0;}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .ms_imgBox	table{width:166px; height:110px;}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .ms_imgBox a {}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .itemLabel {padding:5px 0;} 
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .itemTit {white-space:normal;}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .itemPrice {padding-top:3px; white-space:normal;}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .itemTit a {font-size:12px;}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .itemPrice a {font-size:12px;}
+
+.hk_default00 .dbShop-ui-itemCell .ms_imgBox {overflow:hidden; vertical-align:middle; text-align:center;}
+.hk_default00 .ms_imgBox a img {vertical-align:middle; text-align:center;}
+.hk_default00 .dbShop-ui-itemCell a {vertical-align:middle; text-algin:center;}
+.hk_default00 .dbShop-ui-itemCell .itemLabel {border-radius:0 0 8px 8px; -moz-border-radius:0 0 8px 8px; -webkit-border-radius:0 0 8px 8px; -o-border-radius:0 0 8px 8px; text-decoration:none; text-align:center;}
+.hk_default00 .itemTit a:link, .itemTit a:visited, .itemTit a:active {font-size:13px; font-weight:bold; color:#454545; line-height:120%; text-decoration:none;}
+.hk_default00 .itemTit a:hover {text-decoration:underline;}
+.hk_default00 .itemPrice a:link, .itemPrice a:visited, .itemPrice a:active {font-size:14px;font-weight:Bold;  text-decoration:none; color:#43bece; text-decoration:none;}
+.hk_default00 .itemPrice a:hover {text-decoration:underline;}
+.hk_default00 .dbShop-ui-itemCell .dbShop-ui-favTag, .ms_list .dbShop-ui-itemCell .dbShop-ui-favTagOn  {}
+.hk_default00 center.viewAll {margin-top:10px; display:block; *text-align:center;}
+.hk_default00 .dbShop-ui-favTag {width:36px; height:30px;}
+.gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridA .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridA .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridA .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridA .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .dbShop-ui-col01 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .dbShop-ui-col02 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .dbShop-ui-col03 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .dbShop-ui-col04 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .dbShop-ui-col05 .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+.hk_default00 a.dbShop-ui-favTag:link, .hk_default00 a.dbShop-ui-favTag:active, .hk_default00 a.dbShop-ui-favTag:visited, .hk_default00 a.dbShop-ui-favTag:hover {width:36px; height:30px; background:url(images/btn.png) no-repeat -124px 0; background:url(images/btn.gif) no-repeat -124px 0; color:#FFFFFF;}
+.hk_default00 a.dbShop-ui-favTagOn:link, .hk_default00 a.dbShop-ui-favTagOn:active, .hk_default00 a.dbShop-ui-favTagOn:visited, .hk_default00 a.dbShop-ui-favTagOn:hover {width:36px; height:30px; background:url(images/btn.png) no-repeat -178px 0; background:url(images/btn.gif) no-repeat -178px 0; color:#FFFFFF;}
+
+/*service list*/
+.gridA .hk_default00 .co1Service {width:730px; margin:0 10px 10px 0;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell {position:relative; width:710px; height:113px; margin:0; padding:0; *padding-right:8px; /*background:url(images/bg_list_service_A.png) no-repeat; _background:url(images/bg_list_service_A.gif) no-repeat;*/}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .co1Service .dbShop-ui-itemCell .ms_imgBox table {width:140px; height:100px; margin-right:15px; float:left;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .itemLabel {float:left; margin:5px 0 0 0; width:530px;} 
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .itemTit  {text-align:left; margin-top:-7px;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .itemTit a {line-height:150%;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .itemDesc {font-size:12px; margin-bottom:5px; line-height:16px; color:#555555; text-align:left; line-height:150%; max-height:34px; _height:34px; overflow:hidden;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .itemPrice {text-align:left; margin:0; padding:0;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .itemDate {margin-top:0px; font-size:10px; text-align:left; color:#999999;}
+.gridA .hk_default00 .co1Service .dbShop-ui-itemCell .dbShop-ui-favTag, .gridA .hk_default00 .co1Service .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+
+.gridB .hk_default00 .co1Service {width:980px; margin:0 5px; *margin-left:15px;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell {position:relative; width:950px; height:113px; margin:0; padding:0; *padding:0; /*background:url(images/bg_list_service_B.png) no-repeat; _background:url(images/bg_list_service_B.gif) no-repeat;*/}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .co1Service .dbShop-ui-itemCell .ms_imgBox table {width:140px; height:100px; margin-right:15px; float:left;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .itemLabel {float:left; margin:5px 10px 0 0; width:750px;} 
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .itemTit  {text-align:left;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .itemTit a {line-height:150%;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .itemDesc {font-size:12px; margin-bottom:5px; line-height:16px; color:#555555; text-align:left; line-height:150%; max-height:34px; _height:34px; overflow:hidden;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .itemPrice {text-align:left; margin:0; padding:0;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .itemDate {margin-top:0px; font-size:10px; text-align:left; color:#999999;}
+.gridB .hk_default00 .co1Service .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .co1Service .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+
+/*service list - no image*/
+.gridA .hk_default00 .co1ServiceNoImg {width:730px; margin:0 10px 10px 0;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell {position:relative; width:710px; height:auto; margin:0 0 5px 0; padding:0; *padding-right:8px; /*background:url(images/bg_list_service_A.png) no-repeat; _background:url(images/bg_list_service_A.gif) no-repeat;*/}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .ms_imgBox, .gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .ms_imgBox table, .gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .ms_imgBox img {display:none;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemLabel {float:left; margin:5px 0 0 0; width:685px;} 
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemTit  {text-align:left; margin-top:-7px;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemTit a {line-height:150%;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemDesc {font-size:12px; margin-bottom:5px; line-height:16px; color:#555555; text-align:left; line-height:150%; max-height:34px; _height:34px; overflow:hidden;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemPrice {text-align:left; margin:0; padding:0;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemDate {margin-top:0px; font-size:10px; text-align:left; color:#999999;}
+.gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .dbShop-ui-favTag, .gridA .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+
+.gridB .hk_default00 .co1ServiceNoImg {width:980px; margin:0 5px; *margin-left:15px;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell {position:relative; width:950px; height:auto; margin:0 0 5px 0; padding:0; *padding:0; /*background:url(images/bg_list_service_B.png) no-repeat; _background:url(images/bg_list_service_B.gif) no-repeat;*/}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .ms_imgBox, .gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .ms_imgBox table, .gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .ms_imgBox img {display:none;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemLabel {float:left; margin:5px 10px 0 0; width:905px;} 
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemTit  {text-align:left;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemTit a {line-height:150%;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemDesc {font-size:12px; margin-bottom:5px; line-height:16px; color:#555555; text-align:left; line-height:150%; max-height:34px; _height:34px; overflow:hidden;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemPrice {text-align:left; margin:0; padding:0;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .itemDate {margin-top:0px; font-size:10px; text-align:left; color:#999999;}
+.gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .dbShop-ui-favTag, .gridB .hk_default00 .co1ServiceNoImg .dbShop-ui-itemCell .dbShop-ui-favTagOn  {position:absolute; bottom:0; right:0; text-align:left;}
+
+/*paging*/
+.hk_default00 ul.yiiPager {border:none; background:none; margin:0 auto; padding:0; list-style:none; list-style-position:outside; font-family:Verdana, Geneva, sans-serif; text-align:center; height:40px;} 
+.hk_default00 ul.yiiPager .hidden {border:none; background:none;}
+.hk_default00 ul.yiiPager .first, .hk_default00 ul.yiiPager .last {display:none;}
+.hk_default00 ul.yiiPager .previous, .hk_default00 ul.yiiPager .next {margin:0; padding:0; background:none; border:none; margin:0 0 0 -3px;}
+.hk_default00 ul.yiiPager .previous a:link, .hk_default00 ul.yiiPager .previous a:visited, .hk_default00 ul.yiiPager .previous a:active 
+{padding:12px 10px 10px 30px; font-size:12px; font-weight:bold; border-radius:8px 0 0 8px; -moz-border-radius:8px 0 0 8px; -webkit-border-radius:8px 0 0 8px; -o-border-radius:8px 0 0 8px;background:url(images/btn.png) no-repeat 0 -326px; _background:url(images/btn.gif) no-repeat 0 -326px; color:#FFFFFF; text-decoration:none; border-right:1px solid #1b849a; display:inline-block;}
+.hk_default00 ul.yiiPager .previous a:hover {text-decoration:underline;}
+.hk_default00 ul.yiiPager .next a:link, .hk_default00 ul.yiiPager .next a:visited, .hk_default00 ul.yiiPager .next a:active{padding:12px 40px 10px 10px; font-size:12px; font-weight:bold; border-radius:0 8px 8px 0; -moz-border-radius:0 8px 8px 0; -webkit-border-radius:0 8px 8px 0; -o-border-radius:0 8px 8px 0;background:url(images/btn.png) no-repeat right -382px; _background:url(images/btn.gif) no-repeat right -382px; color:#FFFFFF; text-decoration:none; display:inline-block;}
+.hk_default00 ul.yiiPager .next a:hover {text-decoration:underline;}
+.hk_default00 ul.yiiPager li {display:inline; padding:0; margin:0;}
+.hk_default00 ul.yiiPager .page {border:none;}
+.hk_default00 ul.yiiPager .page a:link, .hk_default00 ul.yiiPager .page a:active, .hk_default00 ul.yiiPager .page a:visited{padding:12px 18px 10px 18px; font-size:12px;font-weight:bold; margin:0 0 0 -3px; background:url(images/btn.png) no-repeat 0 -438px; _background:url(images/btn.gif) no-repeat 0 -438px; color:#FFFFFF; text-decoration:none; border:none;  border-right:1px solid #1b849a; display:inline-block;}
+.hk_default00 ul.yiiPager .page a:hover{text-decoration:underline;}
+.hk_default00 ul.yiiPager .dbShop-ui-selected {text-decoration:none;}
+.hk_default00 ul.yiiPager a.wTop:link, .hk_default00 ul.yiiPager a.wTop:active, .hk_default00 ul.yiiPager a.wTop:visited{padding:12px 70px 10px 15px; _padding:10px 70px 10px 15px; font-size:12px; font-weight:bold; margin:0; _display:inline; background:url(images/btn.png) no-repeat 0 -494px; background:url(images/btn.gif) no-repeat 0 -494px\0; _background:url(images/btn.gif) no-repeat 0 -494px; color:#FFFFFF; text-decoration:none; display:inline-block; _height:16px;  border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; -o-border-radius:8px;}
+.hk_default00 ul.yiiPager  a.wTop:hover{text-decoration:underline;}
+.hk_default00 ul.yiiPager .page a, .hk_default00 ul.yiiPager .previous a, .hk_default00 ul.yiiPager .dbShop-ui-next a, .hk_default00 ul.yiiPager .dbShop-ui-top a	{*display:inline;}
+
+/*Gallery*/
+.gridA .hk_default00 .ms_imgPrev {width:730px; margin:0 5px; /*height:475px;*/ height:425px; position:relative; /*background:url(images/bg_imgPrevBox_A.png) no-repeat; _background:url(images/bg_imgPrevBox_A.gif) no-repeat;*/}
+.gridA .hk_default00 .ms_imgPrev .dbShop-ui-imgBox {height:390px; padding:25px 10px 0 10px; overflow:hidden; vertical-align:middle; text-align:center;}
+.gridA .hk_default00 .ms_imgPrev .dbShop-ui-imgBox table {width:710px; height:390px;}
+.gridA .hk_default00 .ms_imgPrev .dbShop-ui-imgBox td {width:710px; height:390px; vertical-align:middle; text-align:center;}
+.gridA .hk_default00 .ms_imgPrev .imgBoxDes	{background:#FFF; height:40px; padding:10px 0;position:relative; display:none;}
+.gridA .hk_default00 .ms_imgPrev .itemTit {text-align:left; margin:0px 210px 0 15px; width:460px;}
+.gridA .hk_default00 .ms_imgPrev .itemPrice {margin:3px 210px 0 15px; width:460px;}
+.gridA .hk_default00 .ms_imgPrev .dbShop-ui-favTag, .gridA .hk_default00 .ms_imgPrev .dbShop-ui-favTagOn {position: absolute; bottom:10px; right:180px;}
+.gridA .hk_default00 .ms_imgPrev .wViewDetails {position:absolute; bottom:10px; right:10px; text-align:left;}
+
+.gridB .hk_default00 .ms_imgPrev {width:970px; margin:0 10px; /*height:475px;*/ height:425px; /*background:url(images/bg_imgPrevBox_B.png) no-repeat; _background:url(images/bg_imgPrevBox_B.gif) no-repeat;*/ *margin:0 0 0 20px;}
+.gridB .hk_default00 .ms_imgPrev .dbShop-ui-imgBox {height:390px; padding:35px 10px 0 10px; overflow:hidden; vertical-align:middle; text-align:center;}
+.gridB .hk_default00 .ms_imgPrev .dbShop-ui-imgBox table {width:950px; height:390px;}
+.gridB .hk_default00 .ms_imgPrev .dbShop-ui-imgBox td {width:950px; height:390px; vertical-align:middle; text-align:center;}
+.gridB .hk_default00 .ms_imgPrev .imgBoxDes	{background:#FFF; height:40px; padding:10px 0;position:relative; display:none;}
+.gridB .hk_default00 .ms_imgPrev  .itemTit {text-align:left; margin:0 210px 0 15px;}
+.gridB .hk_default00 .ms_imgPrev  .itemPrice {margin:3px 210px 0 15px;}
+.gridB .hk_default00 .ms_imgPrev  .dbShop-ui-favTag, .gridB .hk_default00 .ms_imgPrev  .dbShop-ui-favTagOn {position: absolute; bottom:10px; right:180px;}
+.gridB .hk_default00 .ms_imgPrev  .wViewDetails {position:absolute; bottom:10px; right:10px;text-align:left;}
+
+.gridA .hk_default00 .ms_imgSlider {width:730px; margin:0 0 10px 5px; padding:0;  border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; -o-border-radius:0 0 10px 10px; background:#FFF; position:relative; *margin-top:-5px;}
+.gridA .hk_default00 .ms_imgSlider .btnL {width:52px; height:82px; float:left; background:url(images/bg_gallery_ar.jpg) no-repeat 0 4px #FFFFFF; text-decoration:none; margin-top:190px;}
+.gridA .hk_default00 .ms_imgSlider .btnR {width:52px; height:82px; float:left; background:url(images/bg_gallery_ar.jpg) no-repeat -52px 4px #FFFFFF; text-decoration:none; margin-top:190px;}
+.gridA .hk_default00 .ms_imgSlider .btnL:hover {background:url(images/bg_gallery_ar.jpg) no-repeat -120px 4px; text-decoration:none;}
+.gridA .hk_default00 .ms_imgSlider .btnR:hover {background:url(images/bg_gallery_ar.jpg) no-repeat -172px 4px; text-decoration:none;}
+.gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder {width:560px; height:450px; margin:10px 33px; float:left; background:#FFF; overflow:hidden;}
+.gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul {width:560px; height:448px; margin:0; padding:0; list-style:none; list-style-position:outside;}
+.gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li {width:110px; height:110px; border:1px solid #E9E9E9; float:left; overflow:hidden; vertical-align:middle; text-align:center; background:#FFF;}
+.gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li td {width:110px; height:110px; vertical-align:middle; text-align:center;}
+.gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:link, .gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:visited, .gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:active, .gridA .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:hover {display:block; width:112px; height:112px; }
+
+
+.gridB .hk_default00 .ms_imgSlider {width:970px; margin:0 0 10px 10px; padding:0;  border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; -o-border-radius:0 0 10px 10px; background:#FFFFFF; *margin:-5px 0 0 20px; position:relative;}
+.gridB .hk_default00 .ms_imgSlider .btnL {width:52px; height:82px; float:left; background:url(images/bg_gallery_ar.jpg) no-repeat 0 4px #FFFFFF; text-decoration:none; margin-top:130px;}
+.gridB .hk_default00 .ms_imgSlider .btnR {width:52px; height:82px; float:left; background:url(images/bg_gallery_ar.jpg) no-repeat -52px 4px #FFFFFF; text-decoration:none; margin-top:130px;}
+.gridB .hk_default00 .ms_imgSlider .btnL:hover {background:url(images/bg_gallery_ar.jpg) no-repeat -120px 4px; text-decoration:none;}
+.gridB .hk_default00 .ms_imgSlider .btnR:hover {background:url(images/bg_gallery_ar.jpg) no-repeat -172px 4px; text-decoration:none;}
+.gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder {width:804px; height:336px; margin:31px; float:left; background:#FFFFFF; overflow:hidden;}
+.gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul {width:804px; height:336px; margin:0; padding:0; list-style:none; list-style-position:outside;}
+.gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li {width:110px; height:110px; border:1px solid #E9E9E9; float:left; overflow:hidden; vertical-align:middle; text-align:center; background:#FFF;}
+.gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li td {width:110px; height:110px; vertical-align:middle; text-align:center;}
+.gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:link, .gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:visited, .gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:active, .gridB .hk_default00 .ms_imgSlider .dbShop-ui-holder ul li a:hover {display:block; width:112px; height:112px; }
+
+/*Contact us*/
+.gridA .hk_default00 .ms_sMsg{width:730px; height:318px; position:relative; margin:0 5px 10px 5px; /*background:url(images/bg_msgBox_A.png) no-repeat; _background:url(images/bg_msgBox_A.gif) no-repeat;*/}
+.gridA .hk_default00 .ms_sMsg input.txtfield {width:698px; padding:5px; margin:10px 10px 0 10px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; font-family:Arial, Helvetica, sans-serif; background:#FAF7ED; *width:688px;}
+.gridA .hk_default00 .ms_sMsg .txtarea {width:698px; height:185px; padding:5px; margin:10px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; font-family:Arial, Helvetica, sans-serif; background:#FAF7ED; *padding:0 5px; *width:688px;}
+.gridA .hk_default00 .ms_sMsg .wsMsgBtn {position: absolute; bottom:15px; right:10px; *right:16px; *bottom:20px;}
+
+.gridA .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer {right:5px; top:259px; *top:254px; *right:12px; _right:1px;}
+.gridA .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_c {margin: 5px 10px 10px;}
+.gridA .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:link, .gridA .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:visited, .gridA .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:active .gridA .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:hover {float:right; width:93px; *width:95px; margin-right:4px; *right:0; _right:5px;}
+.gridA .hk_default00 .ms_sMsg .dbShop-ui-remark {margin:10px 180px 10px 10px; text-align:right; vertical-align:middle; font-size:11px; color:#919191; *margin:10px 190px 10px 10px;}
+
+.gridB .hk_default00 .ms_infoSection {margin:0; background:#FFFFFF; padding:10px 0; display:block; width:990px;}
+.gridB .hk_default00 .ms_sMsg {width:970px; height:318px; position:relative; margin:0 10px 10px 10px; /*background:url(images/bg_msgBox_B.png) no-repeat; _background:url(images/bg_msgBox_B.gif) no-repeat;*/ *margin-left:20px;}
+.gridB .hk_default00 .ms_sMsg input.txtfield {width:938px; padding:5px; margin:10px 10px 0 10px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; font-family:Arial, Helvetica, sans-serif; background:#FAF7ED; *margin:15px 0 0 0; *width:918px;}
+.gridB .hk_default00 .ms_sMsg .txtarea {width:938px; height:185px; padding:5px; margin:10px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; font-family:Arial, Helvetica, sans-serif; background:#FAF7ED; *margin:15px 0; *width:918px;}
+.gridB .hk_default00 .ms_sMsg .wsMsgBtn {position: absolute; bottom:15px; right:10px; *right:20px; *bottom:5px;}
+
+.gridB .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer {right:5px; top:259px; *top:269px; *right:16px; _right:5px;}
+.gridB .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer_c .dbShop-ui-form_c {margin: 5px 10px 10px;}
+.gridB .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:link, .gridB .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:visited, .gridB .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:active, .gridB .hk_default00 .ms_sMsg .dbShop-ui-loginMsgLayer a.dbShop-ui-closeLogMsgLayer:hover {float:right; width:93px; *width:95px; margin-right:4px; *right:0; _right:5px;}
+.gridB .hk_default00 .ms_sMsg .dbShop-ui-remark {margin:10px 180px 10px 10px; text-align:right; vertical-align:middle; font-size:11px; color:#919191; *margin:0 190px 10px 10px;}
+
+/*Location*/
+.gridA .hk_default00 .ms_mapArea {width:300px; height:300px; margin:0 10px; position:relative; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; border:1px solid #cccccc;float:right; }
+.gridA .hk_default00 .ms_mapArea .dbShop-ui-mapBox {width:300px; height:300px; overflow:hidden; overflow:hidden; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;}
+
+.gridB .hk_default00 .ms_mapArea {width:300px; height:300px; margin:0 10px; position:relative; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; border:1px solid #cccccc; *margin-left:20px; float:right}
+.gridB .hk_default00 .ms_mapArea .dbShop-ui-mapBox {width:300px; height:300px; overflow:hidden; overflow:hidden; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px;}
+
+/*Contact Info*/
+.gridA .hk_default00 .ms_infoSection {width:730px; min-height:300px; _height:300px; overflow:visible; margin:0 5px; padding:10px 0; background:#FFFFFF; display:block;}
+.gridA .hk_default00 .ms_contacInfo {margin: 0 0 10px 15px; float: left; width:390px; _width:380px; *width:380; _margin:0 0 10px 8px}
+.gridA .hk_default00 .ms_contacInfo_top {min-height:250px; _height:250px;}
+.gridA .hk_default00 .ms_contacInfo_btm {height:20px; background: url(images/bg_contactBtm_A.jpg) no-repeat center top; padding:20px 10px 0 10px}
+.gridA .hk_default00 .ms_contacInfo .ms_addressInfo  {position: relative; display: block;overflow: hidden; padding: 3px 0 18px 100px; width: 295px; _width:280px; line-height:140%; font-size:12px;}
+.gridA .hk_default00 .ms_contacInfo .ms_addressInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -25px; _background:url(../../../images/cbtn.gif) no-repeat -275px -25px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridA .hk_default00 .ms_contacInfo h1 { font-size:16px; color:#6e6e6e; font-family:Tahoma, Geneva, sans-serif; padding-bottom:3px;}
+.gridA .hk_default00 .ms_contacInfo .ms_telInfo { position: relative;  display: block; overflow: hidden; padding: 3px 0 18px 100px;  width: 295px; _width:280px; line-height:140%; font-size:12px;}
+.gridA .hk_default00 .ms_contacInfo .ms_telInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -75px; _background:url(../../../images/cbtn.gif) no-repeat -275px -75px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridA .hk_default00 .ms_contacInfo .ms_faxInfo { position: relative;display: block; overflow: hidden; padding: 3px 0 18px 100px;  width: 295px; _width:280px; line-height:140%; font-size:12px;}
+.gridA .hk_default00 .ms_contacInfo .ms_faxInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -100px; _background:url(../../../images/cbtn.gif) no-repeat -275px -100px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridA .hk_default00 .ms_contacInfo .ms_officeInfo { position: relative; display: block; overflow: hidden; padding: 3px 0 18px 100px;  width: 295px; _width:280px; line-height:140%; font-size:12px;}
+.gridA .hk_default00 .ms_contacInfo .ms_officeInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -150px; _background:url(../../../images/cbtn.gif) no-repeat -275px -150px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridA .hk_default00 .ms_contacInfo .ms_emailInfo { position: relative; display: block; overflow: hidden; padding: 3px 0 18px 100px;  width: 295px; _width:280px; line-height:140%; font-size:12px;}
+.gridA .hk_default00 .ms_contacInfo .ms_emailInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -50px; _background:url(../../../images/cbtn.gif) no-repeat -275px -50px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridA .hk_default00 .ms_contacInfo .ms_mobileInfo { position: relative; display: block; overflow: hidden; padding: 3px 0 18px 100px;  width: 295px; _width:280px; line-height:140%; font-size:12px;}
+.gridA .hk_default00 .ms_contacInfo .ms_mobileInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -125px; _background:url(../../../images/cbtn.gif) no-repeat -275px -125px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+
+.gridB .hk_default00 .ms_contacInfo {margin: 0 5px 10px 15px; float: left; width:648px; _width:618px; *width:618px; min-height:300px; _height:300px; overflow:visible;}
+.gridB .hk_default00 .ms_contacInfo_top {min-height:250px; _height:250px;}
+.gridB .hk_default00 .ms_contacInfo_btm {height:20px; background: url(images/bg_contactBtm_B.jpg) no-repeat center top; padding:20px 10px 0 10px}
+.gridB .hk_default00 .ms_contacInfo .ms_addressInfo  { position: relative; display: block; overflow: hidden; padding: 3px 0 18px 100px; width: 560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_addressInfo label {position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -25px; _background:url(../../../images/cbtn.gif) no-repeat -275px -25px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridB .hk_default00 .ms_contacInfo h1 { font-size:16px; color:#6e6e6e; font-family:Tahoma, Geneva, sans-serif; padding-bottom:3px;}
+.gridB .hk_default00 .ms_contacInfo .ms_owner { position: relative;  display: block; overflow: hidden; padding:3px 0 18px 100px;  width:560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_owner label { position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -75px; _background:url(../../../images/cbtn.gif) no-repeat -275px -75px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridB .hk_default00 .ms_contacInfo .ms_telInfo { position: relative;  display: block; overflow: hidden; padding:3px 0 18px 100px;  width:560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_telInfo label { position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -75px; _background:url(../../../images/cbtn.gif) no-repeat -275px -75px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridB .hk_default00 .ms_contacInfo .ms_faxInfo { position: relative; display: block; overflow: hidden; padding: 3px 0 18px 100px; width:560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_faxInfo label { position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -100px; _background:url(../../../images/cbtn.gif) no-repeat -275px -100px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridB .hk_default00 .ms_contacInfo .ms_officeInfo { position: relative;display: block; overflow: hidden; padding: 3px 0 18px 100px; width:560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_officeInfo label { position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -150px; _background:url(../../../images/cbtn.gif) no-repeat -275px -150px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridB .hk_default00 .ms_contacInfo .ms_emailInfo, .gridB .hk_default00 .ms_contacInfo .ms_shopURL { position: relative;display: block; overflow: hidden; padding: 3px 0 18px 100px; width:560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_emailInfo label { position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -50px; _background:url(../../../images/cbtn.gif) no-repeat -275px -50px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}
+.gridB .hk_default00 .ms_contacInfo .ms_mobileInfo { position: relative; display: block; overflow: hidden; padding: 3px 0 18px 100px; width:560px; _width:510px; line-height:140%; font-size:12px;}
+.gridB .hk_default00 .ms_contacInfo .ms_mobileInfo label { position:absolute; display:block; top:0; left:0; width:30px; height:22px; background:url(../../../images/cbtn.png) no-repeat -275px -125px; _background:url(../../../images/cbtn.gif) no-repeat -275px -125px; padding:3px 0 0 35px; font-weight:bold; color: #6e6e6e;}

@@ -1,0 +1,33 @@
+/*Nav*/
+.dbShop-ui-mainNav  {width:990px; margin:0 auto; z-index:1002; border-bottom:2px solid #BEBEBE;}
+.dbShop-ui-mainNavTable {width:100%; height:14px;}
+.dbShop-ui-mainNavTable td div {position:relative; z-index:999;}
+.dbShop-ui-mainNavTable td {padding:0}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabSt {width:10px; border:none; background:url(images/bg_nav.png) repeat-x left 0; *background:url(images/bg_nav.gif) repeat-x left 0;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabEd {width:10px; border:none; background:url(images/bg_nav.png) repeat-x right 0; *background:url(images/bg_nav.gif) repeat-x right 0;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabStSelected {width:10px; border:none; background:url(images/bg_nav.png) repeat-x 0 -301px; *background:url(images/bg_nav.gif) repeat-x 0 -301px;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabEdSelected {width:10px; border:none; background:url(images/bg_nav.png) repeat-x right -301px; *background:url(images/bg_nav.gif) repeat-x right -301px;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCt, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop {text-align:center; background:url(images/bg_nav.png) repeat-x 0 -150px; *background:url(images/bg_nav.gif) repeat-x 0 -150px;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtSelected, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected  {text-align:center; background:url(images/bg_nav.png) repeat-x 0 -451px; *background:url(images/bg_nav.gif) repeat-x 0 -451px;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCt a:link, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCt a:active, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCt a:visited, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop a:link, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop  a:active, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop  a:visited, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:link {display:block; text-align:center; white-space:normal; padding:6px 0; font-size:12px; font-weight:bold; line-height:15px; text-shadow:#ce3804 0 -1px; color:#FFFFFF; text-decoration:none; }
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCt a:hover, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtSelected  a:link, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtSelected  a:active, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtSelected  a:visited, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtSelected a:hover, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop a:hover, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:active, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:visited, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:hover {display:block; text-align:center; white-space:normal; padding:6px 0; font-size:12px; text-shadow:#333333 0 -1px; font-weight:bold; line-height:15px; color:#FFF; text-decoration:none;}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop a:link, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop  a:active, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop a:visited, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:hover {text-align:center; /*padding:6px 20px 6px 0; background:url(images/ar_navDn.gif) no-repeat right 50%;*/}
+.dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:link, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:active, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDropSelected a:visited, .dbShop-ui-mainNavTable td.dbShop-ui-mainNavTabCtDrop  a:hover{text-align:center; /*padding:6px 20px 6px 0; background:url(images/ar_navUp.gif) no-repeat right 50%;*/  }
+.dbShop-ui-mainNavTable div	{/*overflow:hidden;*/}
+
+/*Drop-down List*/
+.dbShop-ui-mainNavTable td div .ddlist {left:-9px; white-space:normal; position:absolute; width:160px; text-align:left; z-index:789; margin:0; padding:0; top:100%; _top:auto; font-size:12px; font-weight:bold; -webkit-box-shadow: 0 3px 5px #333333; -moz-box-shadow: 0px 2px 5px #333333; box-shadow: 0px 2px 5px #333333; *border-color:#ff8b3d #333333 #333333 #ff8b3d; *border-style:solid; *border-width:1px}
+.dbShop-ui-mainNavTable td div .ddlist li {list-style:none; text-align:left; margin:0; padding:0;}
+.dbShop-ui-mainNavTable td div .ddlist li a:link, .dbShop-ui-mainNavTable td div .ddlist li a:visited, .dbShop-ui-mainNavTable td div .ddlist li a:active, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn .subddlist li a:link, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn .subddlist li a:active, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn .subddlist li a:visited  {display:block; padding:5px 10px; _height:16px; overflow:visible; text-align:left; text-decoration:none; white-space:normal;  width:auto; _width:140px; *display:inline-block; background:#ff4800; text-align:left; text-shadow:#ce3804 0 -1px;}
+.dbShop-ui-mainNavTable td div .ddlist li a:hover, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn .subddlist li a:hover {_width:140px; *display:inline-block; background:#555555; text-align:left; padding:5px 10px; white-space:normal; text-shadow:#333333 0 -1px;}
+
+/*Drop-down sub-List*/
+.dbShop-ui-mainNavTable td div .ddlist li.ddListItem a:link, .dbShop-ui-mainNavTable td div .ddlist li.ddListItem a:active, .dbShop-ui-mainNavTable td div .ddlist li.ddListItem a:visited {background:#ff4800 url(images/ar_navRt.gif) no-repeat right 8px; padding:5px 20px 5px 10px;}
+.dbShop-ui-mainNavTable td div .ddlist li.ddListItem a:hover, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn a:link, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn a:active, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn a:visited, .dbShop-ui-mainNavTable td div .ddlist li.ddListItemOn a:hover {background:#555555 url(images/ar_navRtOn.gif) no-repeat right 8px; padding:5px 20px 5px 10px; color:#FFFFFF;}
+
+.dbShop-ui-mainNavTable td div .subddlist {position:absolute; left:160px; width:160px; overflow:hidden; margin:0; padding:0; -webkit-box-shadow: 0 3px 5px #555555; -moz-box-shadow: 0px 2px 5px #555555; box-shadow: 0px 2px 5px #555555; *border-color:#ff8b3d #333333 #333333 #ff8b3d; *border-style:solid; *border-width:1px; }
+
+.dbShop-ui-mainNavTable td div .ddlist li.ddListItem .subddlist li a:link, .dbShop-ui-mainNavTable td div .ddlist li.ddListItem .subddlist li a:active, .dbShop-ui-mainNavTable td div .ddlist li.ddListItem .subddlist li a:visited, .dbShop-ui-mainNavTable td div .ddlist li.ddListItem .subddlist li a:hover {background-image:none!important; padding:5px 10px;}
+
+.dbShop-ui-mainNavTable td div .ddListLast {left:auto!important; right:-8px;}
+.dbShop-ui-mainNavTable td div .ddListLast .subddlist{left:-160px!important;}
