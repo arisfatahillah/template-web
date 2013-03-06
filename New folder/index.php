@@ -1,3 +1,3 @@
 <?php
-  echo "Mencoba sesuatu yang baru";
+  echo "Mencoba konflik di git";
 <?  
